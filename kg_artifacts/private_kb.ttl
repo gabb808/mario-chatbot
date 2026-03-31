@@ -1,0 +1,2332 @@
+@prefix mario: <http://esilv.fr/mario#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://esilv.fr/mario/prop#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mario:Beezos a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Beezos" ;
+    prop:coOccursWith mario:Snifits ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Blocks a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Blocks" ;
+    prop:coOccursWith mario:Warp_Pipes ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Boo_Guys a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Boo Guys" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Bosu_Kurīpā a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Bosu Kurīpā" ;
+    prop:coOccursWith mario:Boss_Creeper ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Bulldog a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Bulldog" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Bullet_Bill a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Bullet Bill" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Club a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Club" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Doki_Doki_Panic a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Doki Doki Panic" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Donkey_Kong_Bananza a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Donkey Kong Bananza" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Donkey_Kong_Island a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Donkey Kong Island" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Fireflowers a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Fireflowers" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Flame_Flowers a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Flame Flowers" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Fly_Guys a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Fly Guys" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:GREZZO_Co a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "GREZZO Co" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:Gunpei_Yokoi a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Gunpei Yokoi" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:locatedIn mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Imagine_Publishing a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Imagine Publishing" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Lady a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Lady" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Lakitu a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Lakitu" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Lost_Levels a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Lost Levels" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Mario_Advance a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Advance" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Mario_Bros_Wii a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Bros. Wii" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Mario_Challenge a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Challenge" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Mario_Maker a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Maker" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Mario_Sunshine a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Sunshine" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Mega_Mushroom a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Mega Mushroom" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Mushroom_World a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Mushroom World" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Nine a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Nine" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Nintendo_EAD a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo EAD" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:North_American a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "North American" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:NowGamer a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "NowGamer" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Ostros a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Ostros" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Pink a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Pink" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Princess_Rosalina a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Princess Rosalina" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Rogueport a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Rogueport" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:Seven_Stars a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Seven Stars" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:ShyGuys a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "ShyGuys" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:South_Korea a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "South Korea" ;
+    prop:coOccursWith mario:China,
+        mario:Taiwan ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Star_Bits a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Star Bits" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Star_Festival a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Star Festival" ;
+    prop:coOccursWith mario:Grand ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Star_Road a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Star Road" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Star_Wand a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Star Wand" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Super_Mario-kun a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario-kun" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Super_Mario_Advance a mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Advance" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Super_Mario_Bros_1993 a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros. 1993" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Super_Mario_Bros_35 a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros. 35" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:Super_Mario_Bros_4 a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros. 4" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Super_Star a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Super Star" ;
+    prop:coOccursWith mario:Super ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Takashi_Tezuka a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Takashi Tezuka" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Thwomp a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Thwomp" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Toad_Town a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Toad Town" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Woods a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Woods" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:YOSHI a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "YOSHI" ;
+    prop:locatedIn mario:Yoshi .
+
+mario:Yume a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Yume" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Autobombs a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Autobombs" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Boss_Creeper a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Boss Creeper" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Buzzy_Beetles a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Buzzy Beetles" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Castle_Run a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Castle Run" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Club_Nintendo a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Club Nintendo" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Daisy a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Daisy" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Dark_Moon a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Dark Moon" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:Darran a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Darran" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Don_James a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Don James" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:English a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "English" ;
+    prop:coOccursWith mario:Japanese,
+        mario:NES ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Famicom_Grand a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Famicom Grand" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Family_Computer a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Family Computer" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Family_Computer_Disk_System a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Family Computer Disk System" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:GameChat a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "GameChat" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:GameShare a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "GameShare" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Gold_Flower a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Gold Flower" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Goomba_Village a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Goomba Village" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:Grand a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Grand" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Grand_Stars a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Grand Stars" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Great a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Great" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:HDR a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "HDR" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Hiroji_Kiyotake a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Hiroji Kiyotake" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Hiroshi_Yamauchi a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Hiroshi Yamauchi" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Isle_Delfino a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Isle Delfino" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Jones a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Jones" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Kamek a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Kamek" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:King_Koopa a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "King Koopa" ;
+    prop:coOccursWith mario:Koopa,
+        mario:Toad ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Koopa_Paratroopa a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Koopa Paratroopa" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Koopa_Troopa"^^xsd:anyURI .
+
+mario:Koopas a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Koopas" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Korean a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Korean" ;
+    prop:coOccursWith mario:Japanese,
+        mario:Miyamoto ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Kremlings a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Kremlings" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Lord_Bowser a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Lord Bowser" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:MARIO a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "MARIO" .
+
+mario:Mario_Land a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Land" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Mario_Odyssey a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Odyssey" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Mario_Portal a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Portal" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Mario_Segale a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Segale" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Mario_World a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario World" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Mie_Yoshimura a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mie Yoshimura" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Minoru_Arakawa a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Minoru Arakawa" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Monstro_Town a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Monstro Town" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:Mushroom_Cup a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Mushroom Cup" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:NES_Classic_Edition a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "NES Classic Edition" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:North a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "North" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:PST a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "PST" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:Peach_Toadstool a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Peach Toadstool" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Princess_Daisy a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Princess Daisy" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Radar_Scope a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Radar Scope" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Red_Shyguys a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Red Shyguys" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Safari a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Safari" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Shigefumi_Hino a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Shigefumi Hino" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Snifits a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Snifits" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Super_Mario_Sunshine a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Sunshine" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Super_Princess_Peach a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Princess Peach" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Taiwan a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Taiwan" ;
+    prop:coOccursWith mario:China ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Universal_City_Studios a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Universal City Studios" ;
+    prop:coOccursWith mario:Ltd ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:WarioWare a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "WarioWare" ;
+    prop:coOccursWith mario:Diamond_City,
+        mario:Super_Smash,
+        mario:Wario_Car,
+        mario:Wario_Land ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Wario_Bike a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Wario Bike" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Warp_Pipes a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Warp Pipes" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Watch a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Watch" ;
+    prop:coOccursWith mario:Mario_Bros ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Western a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Western" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Wii_Sports a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Wii Sports" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:dinosaur_land a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "dinosaur land" ;
+    prop:fights mario:Toad .
+
+mario:fire_flower a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "fire flower" .
+
+mario:peach a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "peach" .
+
+mario:yoshi a mario:Entity,
+        owl:NamedIndividual ;
+    rdfs:label "yoshi" ;
+    prop:ally_of mario:Mario ;
+    prop:createdBy mario:Shigefumi_Hino ;
+    prop:defeats mario:Mario .
+
+mario:불고기 a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "불고기" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Bowser_Jr a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Bowser Jr" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Cape_Feather a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Cape Feather" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:China a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "China" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Chinese a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Chinese" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Cranky_Kong a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Cranky Kong" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:DK a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "DK" ;
+    prop:coOccursWith mario:Donkey,
+        mario:Kong ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Diamond_City a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Diamond City" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Diddy_Kong a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Diddy Kong" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Donkey_Kong_Country a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Donkey Kong Country" ;
+    prop:coOccursWith mario:DK,
+        mario:Donkey,
+        mario:Kong,
+        mario:Nintendo ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Fire_Flowers a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Fire Flowers" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Flower_Points a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Flower Points" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Flowers a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Flowers" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Hino a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Hino" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Ice_Flower a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Ice Flower" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Journey a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Journey" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Joust a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Joust" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:King_K_Rool a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "King K. Rool" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Kotabe a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Kotabe" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Ltd a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Ltd" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Mario_Kart_Wii a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Kart Wii" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Nintendo_Entertainment_System a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo Entertainment System" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Nintendo_Music a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo Music" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Power_Moons a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Power Moons" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Shellcreeper a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Shellcreeper" ;
+    prop:confidence 0.8 ;
+    prop:enemyOf mario:Luigi ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Shigeru a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Shigeru" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Super_Famicom a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Super Famicom" ;
+    prop:coOccursWith mario:Super ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Super_Mario_Bros_2 a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros 2",
+        "Super Mario Bros. 2" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI,
+        "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Super_Mario_Kart a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Kart" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Super_Mario_Odyssey a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Odyssey" ;
+    prop:coOccursWith mario:Super,
+        mario:Super_Mario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Nintendo a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Super Nintendo" ;
+    prop:coOccursWith mario:Japanese,
+        mario:Super ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Unique a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Unique" ;
+    prop:coOccursWith mario:Cappy ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Virtual_Console a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Virtual Console" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Wario_Car a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Wario Car" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:West a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "West" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Wii a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Wii" ;
+    prop:coOccursWith mario:Virtual_Console,
+        mario:Wii_U ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Wii_U a mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Wii U" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:プレイヤー a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "プレイヤー" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Atari a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Atari" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Bowsers_Castle a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Bowser's Castle" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Dinosaur_Land a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Dinosaur Land" ;
+    prop:coOccursWith mario:Super_Mario,
+        mario:Super_Mario_World,
+        mario:dinosaur_land ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Donkey_Kong a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Donkey Kong" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:America,
+        mario:American,
+        mario:Cranky_Kong,
+        mario:DK,
+        mario:Diddy_Kong,
+        mario:Donkey,
+        mario:Donkey_Kong_Country,
+        mario:Japan,
+        mario:Japanese,
+        mario:Jumpman,
+        mario:King_K_Rool,
+        mario:Kong,
+        mario:Kremlings,
+        mario:Miyamoto,
+        mario:Nintendo,
+        mario:North_America,
+        mario:Shigeru_Miyamoto,
+        mario:Super_Mario_Bros,
+        mario:Super_Mario_Bros_3,
+        mario:Toad,
+        mario:Wario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:EAD a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "EAD" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Goomba a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Goomba" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Boo,
+        mario:Goomba_Village,
+        mario:Goombas,
+        mario:Little_Goombas,
+        mario:Monstro_Town,
+        mario:Mushroom_Kingdom,
+        mario:Super,
+        mario:Super_Mushroom ;
+    prop:confidence 0.97 ;
+    prop:createdBy mario:Mario ;
+    prop:defeats mario:Mario ;
+    prop:enemyOf mario:Mario ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Island a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Island" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:locatedIn mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Jumpman a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Jumpman" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Kart a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Kart" ;
+    prop:coOccursWith mario:EAD,
+        mario:Mario_Kart_World,
+        mario:Super_Mario ;
+    prop:confidence 0.8 ;
+    prop:developedBy mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:publishedBy mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Koopa_Troopas a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Koopa Troopas" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Koopa_Troopa"^^xsd:anyURI .
+
+mario:Little_Goombas a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Little Goombas" ;
+    prop:coOccursWith mario:Goombas ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI .
+
+mario:Lubba a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Lubba" ;
+    prop:coOccursWith mario:Comet_Observatory,
+        mario:Lumas ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Luigis_Mansion a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Luigi's Mansion" ;
+    prop:coOccursWith mario:GameCube,
+        mario:Nintendo,
+        mario:Super_Mario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Mario_Galaxy a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Galaxy" ;
+    prop:appearsIn mario:Peach ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Mario_Kart_World a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Kart World" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario_Kart"^^xsd:anyURI .
+
+mario:Mario_Luigi a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Mario & Luigi" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Nintendo_Classics a mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo Classics" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Nintendo_Switch a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo Switch" ;
+    prop:coOccursWith mario:GameCube,
+        mario:Nintendo_Classics,
+        mario:Switch ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:North_America a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "North America" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Peachs_Castle a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Peach's Castle" ;
+    prop:coOccursWith mario:Toads ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI .
+
+mario:Popeye a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Popeye" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Princess a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Princess" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Professor a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Professor" ;
+    prop:coOccursWith mario:Mansion ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:SNES a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "SNES" ;
+    prop:coOccursWith mario:Various ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Super_Mario_Bros_3 a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros 3",
+        "Super Mario Bros. 3" ;
+    prop:coOccursWith mario:Super_Mario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI,
+        "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Mushroom a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mushroom" ;
+    prop:coOccursWith mario:Goombas,
+        mario:Super ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Wario a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Wario" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Boo,
+        mario:Diamond_City,
+        mario:Fire,
+        mario:Fire_Flower,
+        mario:Hiroji_Kiyotake,
+        mario:Mario_Kart,
+        mario:Mario_Party,
+        mario:Nintendo,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Smash,
+        mario:Waluigi,
+        mario:WarioWare,
+        mario:Wario_Bike,
+        mario:Wario_Car,
+        mario:Wario_Land,
+        mario:Wario_World ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Wario_Land a mario:GeoPoliticalEntity,
+        mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Wario Land" ;
+    prop:coOccursWith mario:Wario_World ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Wario_World a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Wario World" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Yoichi_Kotabe a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Yoichi Kotabe" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:GameCube a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "GameCube" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Nintendo_Classics ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:Koopa_Troopa a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Koopa Troopa" ;
+    prop:coOccursWith mario:Koopa,
+        mario:Koopa_Troopas ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Luigi a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Luigi" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:America,
+        mario:Atari,
+        mario:Boo,
+        mario:Bowser,
+        mario:Bowser_Jr,
+        mario:Dark_Moon,
+        mario:Fire_Flower,
+        mario:GameCube,
+        mario:Guys,
+        mario:Japanese,
+        mario:Joust,
+        mario:Koopa,
+        mario:Luigis_Mansion,
+        mario:Luma,
+        mario:Lumas,
+        mario:Mansion,
+        mario:Mario_Bros,
+        mario:Mario_Kart,
+        mario:Mario_Luigi,
+        mario:New,
+        mario:Nintendo,
+        mario:Nintendo_Music,
+        mario:Nintendo_Switch,
+        mario:PST,
+        mario:Peach,
+        mario:Power_Stars,
+        mario:Princess_Peach,
+        mario:Professor,
+        mario:Rosalina,
+        mario:Shigeru_Miyamoto,
+        mario:Shy,
+        mario:Shy_Guy,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mario_Bros,
+        mario:Super_Mario_Galaxy,
+        mario:Toad,
+        mario:Various,
+        mario:Waluigi,
+        mario:Wario,
+        mario:Yoshi,
+        mario:Yoshis_Island ;
+    prop:confidence 0.97 ;
+    prop:createdBy mario:Mario ;
+    prop:defeats mario:Boo ;
+    prop:extractMethod "pattern" ;
+    prop:kidnaps mario:Boo ;
+    prop:locatedIn mario:Mansion ;
+    prop:saves mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Mushroom a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Mushroom" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Paper_Mario a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Paper Mario" ;
+    prop:coOccursWith mario:Super,
+        mario:Super_Smash ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Princess_Toadstool a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Princess Toadstool" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI .
+
+mario:Shyguys a mario:GeoPoliticalEntity,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Shyguys" ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:fights mario:Shy ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Super_Mario_Galaxy a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Galaxy" ;
+    prop:coOccursWith mario:Mario_Galaxy,
+        mario:Super ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Mario_World a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario World" ;
+    prop:coOccursWith mario:Super,
+        mario:Super_Mario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Smash a mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Smash" ;
+    prop:coOccursWith mario:Super ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Wario"^^xsd:anyURI .
+
+mario:Switch a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Switch" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Various a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Various" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Yoshi a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Yoshi" ;
+    prop:coOccursWith mario:Dinosaur_Land,
+        mario:Guys,
+        mario:Hino,
+        mario:Island,
+        mario:Japanese,
+        mario:Mario_Kart,
+        mario:Mario_Party,
+        mario:Mie_Yoshimura,
+        mario:Miyamoto,
+        mario:NES,
+        mario:Nintendo,
+        mario:Paper_Mario,
+        mario:Rosalina,
+        mario:Shy,
+        mario:Shy_Guy,
+        mario:Super_Mario,
+        mario:Super_Mario_Galaxy,
+        mario:Super_Mario_World,
+        mario:Yoichi_Kotabe,
+        mario:Yoshis_Island,
+        mario:yoshi ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Yoshis_Island a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Yoshi's Island" ;
+    prop:coOccursWith mario:Island ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:America a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "America" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:American a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "American" ;
+    prop:appearsIn mario:Bowser ;
+    prop:coOccursWith mario:America ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Bowser a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Bowser" ;
+    prop:coOccursWith mario:Boo,
+        mario:Bowsers_Castle,
+        mario:Cappy,
+        mario:Chinese,
+        mario:Comet_Observatory,
+        mario:Dinosaur_Land,
+        mario:Fire,
+        mario:Goomba,
+        mario:Goombas,
+        mario:Grand_Stars,
+        mario:Guys,
+        mario:Japanese,
+        mario:Koopa,
+        mario:Koopa_Troopa,
+        mario:Luma,
+        mario:Lumas,
+        mario:Mario_Kart,
+        mario:Mario_Party,
+        mario:Miyamoto,
+        mario:Mushroom_Kingdom,
+        mario:New,
+        mario:Nintendo,
+        mario:Power_Stars,
+        mario:Rosalina,
+        mario:Shy,
+        mario:Shy_Guy,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mario_Bros,
+        mario:Yoshi ;
+    prop:confidence 0.97 ;
+    prop:createdBy mario:Mario ;
+    prop:enemyOf mario:Mario ;
+    prop:extractMethod "pattern" ;
+    prop:kidnaps mario:Peach ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Cappy a mario:GeoPoliticalEntity,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Cappy" ;
+    prop:coOccursWith mario:Power_Moons,
+        mario:Unique ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:kidnaps mario:Peach ;
+    prop:sourceURL "https://www.mariowiki.com/Super_Mario_Odyssey"^^xsd:anyURI .
+
+mario:Fire a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Fire" ;
+    prop:coOccursWith mario:Buzzy_Beetles,
+        mario:Flower_Points ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Fire_Flower"^^xsd:anyURI .
+
+mario:Fire_Flower a mario:Item,
+        owl:NamedIndividual ;
+    rdfs:label "Fire Flower" ;
+    prop:coOccursWith mario:Fire,
+        mario:Fire_Flowers,
+        mario:Flower_Points,
+        mario:Flowers,
+        mario:Ice_Flower,
+        mario:Mushroom_Cup,
+        mario:Nintendo,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mushroom,
+        mario:fire_flower ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Luma a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Luma" ;
+    prop:coOccursWith mario:Comet_Observatory,
+        mario:Lubba,
+        mario:Lumas,
+        mario:New,
+        mario:Super ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Power_Stars a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Power Stars" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:defeats mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Princess_Peach a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Princess Peach" ;
+    prop:coOccursWith mario:Bowser,
+        mario:Castle_Run,
+        mario:Japan,
+        mario:Japanese,
+        mario:Mushroom_Kingdom,
+        mario:Peach,
+        mario:Princess,
+        mario:Princess_Toadstool,
+        mario:Super,
+        mario:Super_Princess_Peach,
+        mario:Toad,
+        mario:Toads ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Rosalina a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Rosalina" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Boo,
+        mario:Comet_Observatory,
+        mario:Lubba,
+        mario:Luma,
+        mario:Lumas,
+        mario:Nintendo,
+        mario:Power_Stars,
+        mario:Super,
+        mario:Super_Mario_Bros,
+        mario:Super_Mario_Galaxy,
+        mario:Super_Mario_Odyssey,
+        mario:Switch,
+        mario:Waluigi ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Shy_Guy a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Shy Guy" ;
+    prop:coOccursWith mario:Boo,
+        mario:Guys,
+        mario:Koopa,
+        mario:Shy,
+        mario:Shyguys,
+        mario:Yoshis_Island ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Toads a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Toads" ;
+    prop:coOccursWith mario:Mushroom ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI .
+
+mario:Waluigi a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Waluigi" ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Donkey a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Donkey" ;
+    prop:coOccursWith mario:Cranky_Kong,
+        mario:Diddy_Kong,
+        mario:Japan,
+        mario:King_K_Rool,
+        mario:Kong,
+        mario:Miyamoto ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Lumas a mario:GeoPoliticalEntity,
+        mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Lumas" ;
+    prop:appearsIn mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Mansion a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mansion" ;
+    prop:confidence 0.8 ;
+    prop:developedBy mario:Nintendo ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi%27s_Mansion"^^xsd:anyURI .
+
+mario:Mario_Bros a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Bros" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI .
+
+mario:Mushroom_Kingdom a mario:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Mushroom Kingdom" ;
+    prop:coOccursWith mario:Comet_Observatory,
+        mario:Goombas,
+        mario:Mushroom,
+        mario:NES,
+        mario:Power_Stars,
+        mario:Toads ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Shigeru_Miyamoto a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Shigeru Miyamoto" ;
+    prop:coOccursWith mario:Kotabe,
+        mario:Miyamoto ;
+    prop:confidence 0.8 ;
+    prop:enemyOf mario:Shellcreeper ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Mario_Bros a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario Bros" ;
+    prop:coOccursWith mario:Mario_Bros,
+        mario:Mario_Kart,
+        mario:Mario_Party,
+        mario:Shigeru,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mario_Bros_2,
+        mario:Super_Mario_Bros_3,
+        mario:Super_Mario_World ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Comet_Observatory a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Comet Observatory" ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Rosalina"^^xsd:anyURI .
+
+mario:Goombas a mario:GeoPoliticalEntity,
+        mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Goombas" ;
+    prop:coOccursWith mario:Little_Goombas ;
+    prop:confidence 0.8 ;
+    prop:defeats mario:Goomba,
+        mario:Mario ;
+    prop:enemyOf mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Goomba"^^xsd:anyURI,
+        "https://www.mariowiki.com/Koopa_Troopa"^^xsd:anyURI .
+
+mario:Guys a mario:GeoPoliticalEntity,
+        mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Guys" ;
+    prop:coOccursWith mario:Shyguys ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Japan a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Japan" ;
+    prop:coOccursWith mario:American,
+        mario:English,
+        mario:Japanese,
+        mario:Kong,
+        mario:NES,
+        mario:プレイヤー ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Mario_Kart a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Kart" ;
+    prop:coOccursWith mario:EAD,
+        mario:Kart,
+        mario:Luigis_Mansion,
+        mario:Mario_Kart_Wii,
+        mario:Mario_Kart_World,
+        mario:Mario_Party,
+        mario:Nintendo,
+        mario:Paper_Mario,
+        mario:SNES,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mario_Kart ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Mario_Party a mario:VideoGame,
+        owl:NamedIndividual ;
+    rdfs:label "Mario Party" ;
+    prop:coOccursWith mario:Paper_Mario ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:NES a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "NES" ;
+    prop:coOccursWith mario:Japanese ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:New a mario:GeoPoliticalEntity,
+        mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "New" ;
+    prop:appearsIn mario:Cape_Feather,
+        mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:lives_in mario:Cape_Feather ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_World"^^xsd:anyURI .
+
+mario:Shy a mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Shy" ;
+    prop:coOccursWith mario:Autobombs,
+        mario:Guys,
+        mario:Koopa,
+        mario:Red_Shyguys,
+        mario:Shyguys ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Shy_Guy"^^xsd:anyURI .
+
+mario:Toad a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Toad" ;
+    prop:coOccursWith mario:Donkey,
+        mario:Kong,
+        mario:Koopa,
+        mario:Mansion,
+        mario:Mushroom,
+        mario:Mushroom_Kingdom,
+        mario:New,
+        mario:Peachs_Castle,
+        mario:Princess_Toadstool,
+        mario:Shy_Guy,
+        mario:Super,
+        mario:Toads ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Kong a mario:GeoPoliticalEntity,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Kong" ;
+    prop:appearsIn mario:Donkey_Kong,
+        mario:Mario ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario ;
+    prop:developedBy mario:Donkey_Kong ;
+    prop:extractMethod "nltk" ;
+    prop:kidnaps mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Donkey_Kong"^^xsd:anyURI .
+
+mario:Koopa a mario:GeoPoliticalEntity,
+        mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Koopa" ;
+    prop:appearsIn mario:Koopa_Troopa,
+        mario:Mario ;
+    prop:coOccursWith mario:Koopa_Paratroopa,
+        mario:Koopa_Troopas ;
+    prop:confidence 0.8 ;
+    prop:defeats mario:Koopa_Troopa ;
+    prop:extractMethod "nltk" ;
+    prop:lives_in mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Koopa_Troopa"^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Peach a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Peach" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Bowser,
+        mario:Bowsers_Castle,
+        mario:Cappy,
+        mario:Japan,
+        mario:Japanese,
+        mario:Kotabe,
+        mario:Luma,
+        mario:Mario_Kart,
+        mario:Mario_Luigi,
+        mario:Mario_Party,
+        mario:Mushroom_Kingdom,
+        mario:Peachs_Castle,
+        mario:Princess,
+        mario:Princess_Toadstool,
+        mario:Rosalina,
+        mario:Shigeru_Miyamoto,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Mario_Bros,
+        mario:Toad,
+        mario:Toads,
+        mario:Waluigi,
+        mario:peach ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Boo a mario:Enemy,
+        owl:NamedIndividual ;
+    rdfs:label "Boo" ;
+    prop:coOccursWith mario:Goombas,
+        mario:Guys,
+        mario:Lubba,
+        mario:Mansion,
+        mario:Nintendo,
+        mario:Professor,
+        mario:Shy,
+        mario:Wario_World ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Miyamoto a mario:GeoPoliticalEntity,
+        mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Miyamoto" ;
+    prop:coOccursWith mario:American,
+        mario:Chinese,
+        mario:Great,
+        mario:Japanese,
+        mario:Journey,
+        mario:Korean,
+        mario:Popeye,
+        mario:West,
+        mario:불고기 ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Bowser"^^xsd:anyURI,
+        "https://www.mariowiki.com/Mario"^^xsd:anyURI,
+        "https://www.mariowiki.com/Yoshi"^^xsd:anyURI .
+
+mario:Japanese a mario:GeoPoliticalEntity,
+        owl:NamedIndividual ;
+    rdfs:label "Japanese" ;
+    prop:coOccursWith mario:Japan,
+        mario:Miyamoto,
+        mario:NES,
+        mario:Shigeru_Miyamoto,
+        mario:Super,
+        mario:プレイヤー ;
+    prop:confidence 0.8 ;
+    prop:extractMethod "nltk" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Nintendo a mario:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Nintendo" ;
+    prop:coOccursWith mario:America,
+        mario:American,
+        mario:Atari,
+        mario:Donkey,
+        mario:Fire,
+        mario:GameChat,
+        mario:GameCube,
+        mario:GameShare,
+        mario:HDR,
+        mario:Hiroshi_Yamauchi,
+        mario:Japan,
+        mario:Japanese,
+        mario:Jumpman,
+        mario:Kart,
+        mario:Kong,
+        mario:Ltd,
+        mario:Mario_Bros,
+        mario:Miyamoto,
+        mario:NES,
+        mario:NES_Classic_Edition,
+        mario:New,
+        mario:Nintendo_Classics,
+        mario:Nintendo_Entertainment_System,
+        mario:Nintendo_Switch,
+        mario:North_America,
+        mario:Popeye,
+        mario:Radar_Scope,
+        mario:SNES,
+        mario:Shigeru_Miyamoto,
+        mario:Super,
+        mario:Super_Mario,
+        mario:Super_Nintendo,
+        mario:Switch,
+        mario:Universal_City_Studios,
+        mario:Various,
+        mario:Virtual_Console,
+        mario:Western,
+        mario:Wii,
+        mario:Wii_U ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super_Mario a mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super Mario" ;
+    prop:appearsIn mario:Fire_Flower,
+        mario:Princess_Peach ;
+    prop:coOccursWith mario:Mario_Bros,
+        mario:Super,
+        mario:Yoichi_Kotabe ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario ;
+    prop:defeats mario:Fire_Flower ;
+    prop:enemyOf mario:Mario ;
+    prop:extractMethod "nltk" ;
+    prop:locatedIn mario:Mario ;
+    prop:publishedBy mario:Nintendo ;
+    prop:saves mario:Princess_Peach ;
+    prop:sourceURL "https://www.mariowiki.com/Luigi"^^xsd:anyURI,
+        "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+
+mario:Super a mario:GeoPoliticalEntity,
+        mario:Organization,
+        mario:RealPerson,
+        owl:NamedIndividual ;
+    rdfs:label "Super" ;
+    prop:appearsIn mario:Mario ;
+    prop:coOccursWith mario:Comet_Observatory,
+        mario:Mario_Galaxy,
+        mario:Super_Famicom,
+        mario:Super_Mario ;
+    prop:confidence 0.8 ;
+    prop:createdBy mario:Mario,
+        mario:Peach ;
+    prop:developedBy mario:Nintendo ;
+    prop:extractMethod "nltk" ;
+    prop:fights mario:New ;
+    prop:kidnaps mario:Luigi,
+        mario:Princess_Peach ;
+    prop:rival_of mario:Luigi,
+        mario:Mario ;
+    prop:sourceURL "https://www.mariowiki.com/Mushroom_Kingdom"^^xsd:anyURI,
+        "https://www.mariowiki.com/Princess_Peach"^^xsd:anyURI,
+        "https://www.mariowiki.com/Super_Mario_Bros."^^xsd:anyURI .
+
+mario:Mario a mario:Character,
+        owl:NamedIndividual ;
+    rdfs:label "Mario" ;
+    prop:coOccursWith mario:America,
+        mario:American,
+        mario:Atari,
+        mario:Boo,
+        mario:Bowser,
+        mario:Bowser_Jr,
+        mario:Bowsers_Castle,
+        mario:Cappy,
+        mario:Club_Nintendo,
+        mario:Comet_Observatory,
+        mario:Daisy,
+        mario:Darran,
+        mario:Dinosaur_Land,
+        mario:Don_James,
+        mario:Donkey,
+        mario:Donkey_Kong,
+        mario:Donkey_Kong_Country,
+        mario:EAD,
+        mario:Famicom_Grand,
+        mario:Family_Computer,
+        mario:Family_Computer_Disk_System,
+        mario:Fire,
+        mario:Fire_Flower,
+        mario:Fire_Flowers,
+        mario:Flowers,
+        mario:Gold_Flower,
+        mario:Goomba,
+        mario:Goombas,
+        mario:Guys,
+        mario:Hino,
+        mario:Ice_Flower,
+        mario:Island,
+        mario:Isle_Delfino,
+        mario:Japan,
+        mario:Japanese,
+        mario:Jones,
+        mario:Journey,
+        mario:Joust,
+        mario:Jumpman,
+        mario:Kamek,
+        mario:Kart,
+        mario:King_Koopa,
+        mario:Kong,
+        mario:Koopa,
+        mario:Koopa_Troopa,
+        mario:Koopa_Troopas,
+        mario:Koopas,
+        mario:Little_Goombas,
+        mario:Lord_Bowser,
+        mario:Luigi,
+        mario:Luigis_Mansion,
+        mario:Luma,
+        mario:Lumas,
+        mario:MARIO,
+        mario:Mansion,
+        mario:Mario_Bros,
+        mario:Mario_Galaxy,
+        mario:Mario_Kart,
+        mario:Mario_Kart_Wii,
+        mario:Mario_Kart_World,
+        mario:Mario_Land,
+        mario:Mario_Luigi,
+        mario:Mario_Odyssey,
+        mario:Mario_Party,
+        mario:Mario_Portal,
+        mario:Mario_Segale,
+        mario:Mario_World,
+        mario:Minoru_Arakawa,
+        mario:Miyamoto,
+        mario:Mushroom,
+        mario:Mushroom_Kingdom,
+        mario:NES,
+        mario:New,
+        mario:Nintendo,
+        mario:Nintendo_Entertainment_System,
+        mario:Nintendo_Music,
+        mario:Nintendo_Switch,
+        mario:North,
+        mario:North_America,
+        mario:Paper_Mario,
+        mario:Peach,
+        mario:Peach_Toadstool,
+        mario:Peachs_Castle,
+        mario:Popeye,
+        mario:Power_Moons,
+        mario:Power_Stars,
+        mario:Princess,
+        mario:Princess_Daisy,
+        mario:Princess_Peach,
+        mario:Princess_Toadstool,
+        mario:Professor,
+        mario:Rosalina,
+        mario:SNES,
+        mario:Safari,
+        mario:Shellcreeper,
+        mario:Shigeru,
+        mario:Shigeru_Miyamoto,
+        mario:Shy,
+        mario:Shy_Guy,
+        mario:Shyguys,
+        mario:Super,
+        mario:Super_Famicom,
+        mario:Super_Mario,
+        mario:Super_Mario_Bros,
+        mario:Super_Mario_Bros_2,
+        mario:Super_Mario_Bros_3,
+        mario:Super_Mario_Galaxy,
+        mario:Super_Mario_Kart,
+        mario:Super_Mario_Odyssey,
+        mario:Super_Mario_Sunshine,
+        mario:Super_Mario_World,
+        mario:Super_Mushroom,
+        mario:Super_Nintendo,
+        mario:Super_Smash,
+        mario:Switch,
+        mario:Toad,
+        mario:Unique,
+        mario:Various,
+        mario:Waluigi,
+        mario:Wario,
+        mario:Wario_Land,
+        mario:Watch,
+        mario:West,
+        mario:Wii,
+        mario:Wii_Sports,
+        mario:Yoichi_Kotabe,
+        mario:Yoshi,
+        mario:Yoshis_Island ;
+    prop:confidence 0.97 ;
+    prop:extractMethod "pattern" ;
+    prop:saves mario:Cappy,
+        mario:Peach ;
+    prop:sourceURL "https://www.mariowiki.com/Mario"^^xsd:anyURI .
+

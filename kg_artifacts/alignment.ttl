@@ -1,0 +1,297 @@
+@prefix mario: <http://esilv.fr/mario#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://esilv.fr/mario/prop#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+mario:Boo owl:sameAs wd:Q843930 .
+
+mario:Bowser owl:sameAs wd:Q843924 .
+
+mario:Bowsers_Castle owl:sameAs wd:Q3245748 .
+
+mario:Bullet_Bill owl:sameAs wd:Q843961 .
+
+mario:Daisy owl:sameAs wd:Q234574 .
+
+mario:Diddy_Kong owl:sameAs wd:Q1192416 .
+
+mario:Doki_Doki_Panic owl:sameAs wd:Q762664 .
+
+mario:Donkey_Kong owl:sameAs wd:Q83915 .
+
+mario:Donkey_Kong_Country owl:sameAs wd:Q1055338 .
+
+mario:Fire_Flower owl:sameAs wd:Q843966 .
+
+mario:GameCube owl:sameAs wd:Q182172 .
+
+mario:Goomba owl:sameAs wd:Q1536478 .
+
+mario:Gunpei_Yokoi owl:sameAs wd:Q458834 .
+
+mario:Hiroshi_Yamauchi owl:sameAs wd:Q461704 .
+
+mario:Ice_Flower owl:sameAs wd:Q843969 .
+
+mario:Japan owl:sameAs wd:Q17 .
+
+mario:Kamek owl:sameAs wd:Q1359777 .
+
+mario:Koopa owl:sameAs wd:Q1762188 .
+
+mario:Koopa_Paratroopa owl:sameAs wd:Q1762188 .
+
+mario:Koopa_Troopa owl:sameAs wd:Q1762188 .
+
+mario:Lakitu owl:sameAs wd:Q842898 .
+
+mario:Luigi owl:sameAs wd:Q7194 .
+
+mario:Luigis_Mansion owl:sameAs wd:Q463975 .
+
+mario:Mario owl:sameAs wd:Q7186 .
+
+mario:Mario_Kart owl:sameAs wd:Q209163 .
+
+mario:Mario_Luigi owl:sameAs wd:Q1364050 .
+
+mario:Mario_Party owl:sameAs wd:Q837773 .
+
+mario:Mega_Mushroom owl:sameAs wd:Q843971 .
+
+mario:Miyamoto owl:sameAs wd:Q40219 .
+
+mario:Mushroom_Kingdom owl:sameAs wd:Q1069756 .
+
+mario:NES owl:sameAs wd:Q172742 .
+
+mario:Nintendo owl:sameAs wd:Q8093 .
+
+mario:Nintendo_EAD owl:sameAs wd:Q1368900 .
+
+mario:Nintendo_Entertainment_System owl:sameAs wd:Q172742 .
+
+mario:Nintendo_Switch owl:sameAs wd:Q19610114 .
+
+mario:North_America owl:sameAs wd:Q49 .
+
+mario:Paper_Mario owl:sameAs wd:Q1098498 .
+
+mario:Peach owl:sameAs wd:Q7191 .
+
+mario:Princess_Daisy owl:sameAs wd:Q234574 .
+
+mario:Princess_Peach owl:sameAs wd:Q7191 .
+
+mario:Rosalina owl:sameAs wd:Q3951592 .
+
+mario:SNES owl:sameAs wd:Q183157 .
+
+mario:Shigeru_Miyamoto owl:sameAs wd:Q40219 .
+
+mario:Shy_Guy owl:sameAs wd:Q2312116 .
+
+mario:South_Korea owl:sameAs wd:Q884 .
+
+mario:Star_Road owl:sameAs wd:Q3468668 .
+
+mario:Super_Mario_Bros owl:sameAs wd:Q174163 .
+
+mario:Super_Mario_Bros_2 owl:sameAs wd:Q1203717 .
+
+mario:Super_Mario_Bros_3 owl:sameAs wd:Q192643 .
+
+mario:Super_Mario_Galaxy owl:sameAs wd:Q194256 .
+
+mario:Super_Mario_Kart owl:sameAs wd:Q209163 .
+
+mario:Super_Mario_Odyssey owl:sameAs wd:Q29934932 .
+
+mario:Super_Mario_Sunshine owl:sameAs wd:Q327622 .
+
+mario:Super_Mario_World owl:sameAs wd:Q193581 .
+
+mario:Super_Mushroom owl:sameAs wd:Q843964 .
+
+mario:Super_Nintendo owl:sameAs wd:Q183157 .
+
+mario:Super_Star owl:sameAs wd:Q843967 .
+
+mario:Takashi_Tezuka owl:sameAs wd:Q1371065 .
+
+mario:Thwomp owl:sameAs wd:Q843943 .
+
+mario:Toad owl:sameAs wd:Q7200 .
+
+mario:Waluigi owl:sameAs wd:Q1455836 .
+
+mario:Wario owl:sameAs wd:Q7192 .
+
+mario:Wario_Land owl:sameAs wd:Q1412558 .
+
+mario:Wii owl:sameAs wd:Q8079 .
+
+mario:Wii_U owl:sameAs wd:Q56942 .
+
+mario:Yoshi owl:sameAs wd:Q214174 .
+
+mario:Yoshis_Island owl:sameAs wd:Q193583 .
+
+prop:appearsIn owl:equivalentProperty wdt:P161 .
+
+prop:belongsTo rdfs:subPropertyOf wdt:P361 .
+
+prop:contains owl:equivalentProperty wdt:P150 .
+
+prop:createdBy owl:equivalentProperty wdt:P170 .
+
+prop:developedBy owl:equivalentProperty wdt:P178 .
+
+prop:features owl:equivalentProperty wdt:P674 .
+
+prop:follows owl:equivalentProperty wdt:P155 .
+
+prop:isPartOf owl:equivalentProperty wdt:P361 .
+
+prop:isRelatedTo rdfs:subPropertyOf wdt:P1382 .
+
+prop:locatedIn owl:equivalentProperty wdt:P131 .
+
+prop:ownedBy owl:equivalentProperty wdt:P127 .
+
+prop:precedes owl:equivalentProperty wdt:P156 .
+
+prop:publishedBy owl:equivalentProperty wdt:P123 .
+
+prop:rules rdfs:subPropertyOf wdt:P6 .
+
+prop:worksFor owl:equivalentProperty wdt:P108 .
+
+wd:Q1055338 rdfs:label "Donkey Kong Country"@en .
+
+wd:Q1069756 rdfs:label "Mushroom Kingdom"@en .
+
+wd:Q1098498 rdfs:label "Paper Mario"@en .
+
+wd:Q1192416 rdfs:label "Diddy Kong"@en .
+
+wd:Q1203717 rdfs:label "Super Mario Bros. 2"@en .
+
+wd:Q1359777 rdfs:label "Kamek"@en .
+
+wd:Q1364050 rdfs:label "Mario & Luigi"@en .
+
+wd:Q1368900 rdfs:label "Nintendo EAD"@en .
+
+wd:Q1371065 rdfs:label "Takashi Tezuka"@en .
+
+wd:Q1412558 rdfs:label "Wario Land"@en .
+
+wd:Q1455836 rdfs:label "Waluigi"@en .
+
+wd:Q1536478 rdfs:label "Goomba"@en .
+
+wd:Q17 rdfs:label "Japan"@en .
+
+wd:Q174163 rdfs:label "Super Mario Bros"@en .
+
+wd:Q182172 rdfs:label "GameCube"@en .
+
+wd:Q192643 rdfs:label "Super Mario Bros. 3"@en .
+
+wd:Q193581 rdfs:label "Super Mario World"@en .
+
+wd:Q193583 rdfs:label "Yoshi's Island"@en .
+
+wd:Q194256 rdfs:label "Super Mario Galaxy"@en .
+
+wd:Q19610114 rdfs:label "Nintendo Switch"@en .
+
+wd:Q214174 rdfs:label "Yoshi"@en .
+
+wd:Q2312116 rdfs:label "Shy Guy"@en .
+
+wd:Q29934932 rdfs:label "Super Mario Odyssey"@en .
+
+wd:Q3245748 rdfs:label "Bowser's Castle"@en .
+
+wd:Q327622 rdfs:label "Super Mario Sunshine"@en .
+
+wd:Q3468668 rdfs:label "Star Road"@en .
+
+wd:Q3951592 rdfs:label "Rosalina"@en .
+
+wd:Q458834 rdfs:label "Gunpei Yokoi"@en .
+
+wd:Q461704 rdfs:label "Hiroshi Yamauchi"@en .
+
+wd:Q463975 rdfs:label "Luigi's Mansion"@en .
+
+wd:Q49 rdfs:label "North America"@en .
+
+wd:Q56942 rdfs:label "Wii U"@en .
+
+wd:Q7186 rdfs:label "Mario"@en .
+
+wd:Q7192 rdfs:label "Wario"@en .
+
+wd:Q7194 rdfs:label "Luigi"@en .
+
+wd:Q7200 rdfs:label "Toad"@en .
+
+wd:Q762664 rdfs:label "Doki Doki Panic"@en .
+
+wd:Q8079 rdfs:label "Wii"@en .
+
+wd:Q8093 rdfs:label "Nintendo"@en .
+
+wd:Q837773 rdfs:label "Mario Party"@en .
+
+wd:Q83915 rdfs:label "Donkey Kong"@en .
+
+wd:Q842898 rdfs:label "Lakitu"@en .
+
+wd:Q843924 rdfs:label "Bowser"@en .
+
+wd:Q843930 rdfs:label "Boo"@en .
+
+wd:Q843943 rdfs:label "Thwomp"@en .
+
+wd:Q843961 rdfs:label "Bullet Bill"@en .
+
+wd:Q843964 rdfs:label "Super Mushroom"@en .
+
+wd:Q843966 rdfs:label "Fire Flower"@en .
+
+wd:Q843967 rdfs:label "Super Star"@en .
+
+wd:Q843969 rdfs:label "Ice Flower"@en .
+
+wd:Q843971 rdfs:label "Mega Mushroom"@en .
+
+wd:Q884 rdfs:label "South Korea"@en .
+
+wd:Q172742 rdfs:label "NES"@en,
+        "Nintendo Entertainment System"@en .
+
+wd:Q183157 rdfs:label "SNES"@en,
+        "Super Nintendo"@en .
+
+wd:Q209163 rdfs:label "Mario Kart"@en,
+        "Super Mario Kart"@en .
+
+wd:Q234574 rdfs:label "Daisy"@en,
+        "Princess Daisy"@en .
+
+wd:Q40219 rdfs:label "Miyamoto"@en,
+        "Shigeru Miyamoto"@en .
+
+wd:Q7191 rdfs:label "Peach"@en,
+        "Princess Peach"@en .
+
+wd:Q1762188 rdfs:label "Koopa"@en,
+        "Koopa Paratroopa"@en,
+        "Koopa Troopa"@en .
+

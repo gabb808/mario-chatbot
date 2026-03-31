@@ -1,0 +1,173 @@
+{
+  "private_kb": {
+    "graph": "Private KB",
+    "total_triples": 2085,
+    "unique_subjects": 241,
+    "unique_objects": 198,
+    "unique_entities": 251,
+    "unique_predicates": 19,
+    "type_counts": {
+      "NamedIndividual": 241,
+      "RealPerson": 93,
+      "Organization": 63,
+      "GeoPoliticalEntity": 42,
+      "Character": 18,
+      "VideoGame": 16,
+      "Location": 11,
+      "Enemy": 6,
+      "Item": 6,
+      "Entity": 6
+    },
+    "top_predicates": [
+      [
+        "coOccursWith",
+        543
+      ],
+      [
+        "type",
+        502
+      ],
+      [
+        "sourceURL",
+        248
+      ],
+      [
+        "label",
+        243
+      ],
+      [
+        "confidence",
+        235
+      ],
+      [
+        "extractMethod",
+        235
+      ],
+      [
+        "appearsIn",
+        25
+      ],
+      [
+        "createdBy",
+        11
+      ],
+      [
+        "defeats",
+        8
+      ],
+      [
+        "enemyOf",
+        6
+      ]
+    ]
+  },
+  "alignment": {
+    "entity_aligned": 67,
+    "entity_new": 174,
+    "entity_total": 241,
+    "pred_equivalent": 12,
+    "pred_sub": 3,
+    "pred_no_match": 11,
+    "avg_entity_confidence": 0.984,
+    "sample_alignments": [
+      {
+        "entity": "Bullet Bill",
+        "qid": "Q843961",
+        "conf": "1.0"
+      },
+      {
+        "entity": "Doki Doki Panic",
+        "qid": "Q762664",
+        "conf": "1.0"
+      },
+      {
+        "entity": "Gunpei Yokoi",
+        "qid": "Q458834",
+        "conf": "1.0"
+      },
+      {
+        "entity": "Lakitu",
+        "qid": "Q842898",
+        "conf": "1.0"
+      },
+      {
+        "entity": "Mega Mushroom",
+        "qid": "Q843971",
+        "conf": "1.0"
+      }
+    ]
+  },
+  "expanded_kb": {
+    "graph": "Expanded KB",
+    "total_triples": 106272,
+    "unique_subjects": 1211,
+    "unique_objects": 20532,
+    "unique_entities": 21316,
+    "unique_predicates": 862,
+    "type_counts": {
+      "Thing": 879,
+      "VideoGame": 770,
+      "Work": 760,
+      "CreativeWork": 758,
+      "Q386724": 758,
+      "Software": 753,
+      "Q7397": 752,
+      "Q7889": 750,
+      "ComputerGameProgram": 253,
+      "NamedIndividual": 241,
+      "SoftwareObject": 203,
+      "RealPerson": 93,
+      "Organization": 82,
+      "Person": 75,
+      "Agent": 72,
+      "InformationAppliance": 51,
+      "Device": 50,
+      "Q1067263": 49,
+      "GeoPoliticalEntity": 42,
+      "Q24229398": 35
+    },
+    "top_predicates": [
+      [
+        "description",
+        32633
+      ],
+      [
+        "sameAs",
+        13028
+      ],
+      [
+        "subject",
+        11591
+      ],
+      [
+        "type",
+        7853
+      ],
+      [
+        "label",
+        3844
+      ],
+      [
+        "depiction",
+        1979
+      ],
+      [
+        "modes",
+        1156
+      ],
+      [
+        "platforms",
+        1128
+      ],
+      [
+        "computingPlatform",
+        1103
+      ],
+      [
+        "released",
+        1084
+      ]
+    ]
+  },
+  "expansion_factor": 51.0
+}

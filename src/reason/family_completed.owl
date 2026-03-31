@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.owl-ontologies.com/family_lab.owl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isMarriedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMarriedWith"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMarriedWith"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMarriedWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Brother">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Chloe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <name>Chloe</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</age>
+    <isDaughterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isDaughterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Peter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <name>Peter</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</age>
+    <nationality>French</nationality>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Uncle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Parent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Grandfather">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#base64Binary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Child">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isMotherOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMotherOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMotherOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMotherOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Marie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <name>Marie</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</age>
+    <nationality>French</nationality>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Claude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <name>Claude</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</age>
+    <nationality>French</nationality>
+    <isDaughterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Claude"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Male">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#token">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isFatherOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isFatherOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isFatherOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isFatherOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Grandparents">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Alex">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <name>Alex</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</age>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Tom"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Michael"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Michael"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Tom"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Sylvie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <name>Sylvie</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</age>
+    <isDaughterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isDaughterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#John"/>
+    <isMotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Claude"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isSisterOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Claude"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Father">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_gf_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isFatherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandfather"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gf_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isSonOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSonOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSonOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSonOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isParentOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLong">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_daughter_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isDaughterOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_father_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isFatherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Son">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Paul">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <name>Paul</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38</age>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Grandmother">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_gm_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMotherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandparents"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Grandmother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_gm_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#name"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#name"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Thomas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <name>Thomas</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</age>
+    <nationality>French</nationality>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Tom"/>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Michael"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isBrotherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Paul"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Chloe"/>
+    <isSiblingOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Peter"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Marie"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Michael"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Tom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_son_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSonOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isChildOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#John">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_father_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Father"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <name>John</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</age>
+    <nationality>Italian</nationality>
+    <isFatherOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Pedro"/>
+    <isMarriedWith rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sylvie"/>
+    <isParentOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Pedro"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#John"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_sister_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSisterOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_parent_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isParentOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_mother_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isMotherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Sister">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_sister_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sister"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isDaughterOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isChildOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isDaughterOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isDaughterOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isDaughterOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Daughter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_daughter_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Daughter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Pedro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <name>Pedro</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</age>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#John"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Pedro"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#John"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#age">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#age"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#age"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Sibling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_uncle_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Uncle"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_uncle_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Mother">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Parent"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_parent_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_mother_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Mother"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#_brother_r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isBrotherOf"/>
+    <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Sibling"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Brother"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_brother_r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Michael">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <name>Michael</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</age>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Michael"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#nationality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#nationality"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#nationality"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#nationality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShort">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#language">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Tom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Male"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#_son_r"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Child"/>
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Son"/>
+    <name>Tom</name>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</age>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <isSonOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Alex"/>
+    <isChildOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Thomas"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Tom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Restriction">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#isSisterOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:domain rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSiblingOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSisterOf"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSisterOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.owl-ontologies.com/family_lab.owl#isSisterOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#long">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NMTOKEN">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/family_lab.owl#Female">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+    <owl:sameAs rdf:resource="http://www.owl-ontologies.com/family_lab.owl#Female"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Name">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#normalizedString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedInt">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#someValuesFrom">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#someValuesFrom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#deprecated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#negativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#inverseOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#inverseOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#short">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#disjointWith">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#int">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTimeStamp">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NCName">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#NCName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#byte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

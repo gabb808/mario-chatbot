@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+     xml:base="http://www.owl-ontologies.com/unnamed.owl"
+     xmlns:j.0="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/family_lab.owl">
+        <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#allowedParent -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#allowedParent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isBrotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isSiblingOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isChildOf">
+        <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isParentOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isDaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isChildOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isFatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isParentOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isMarriedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isMarriedWith">
+        <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isMarriedWith"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <j.0:allowedParent rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isMotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isParentOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isParentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isParentOf">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isSiblingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isSiblingOf">
+        <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isSiblingOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isSisterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isSisterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isSiblingOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#isSonOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#isSonOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#isChildOf"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#age">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#nationality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#nationality">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Brother -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Brother">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sibling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Child -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Child">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Daughter -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Daughter">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Child"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Father -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Father">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Parent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Female -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Female">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Grandfather -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Grandfather">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Grandparents"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Grandmother -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Grandmother">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Grandparents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Grandparents -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Grandparents">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Male -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Male">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Mother -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Mother">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Parent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Parent -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Parent">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Person -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Sibling -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Sibling">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Sister -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Sister">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Female"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sibling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Son -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Son">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Child"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Uncle -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Uncle">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Male"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

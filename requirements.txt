@@ -1,0 +1,23 @@
+# Web crawling & text processing
+httpx>=0.24
+trafilatura>=1.6
+nltk>=3.9
+requests>=2.31
+
+# RDF & Knowledge Graph
+rdflib>=6.0
+owlready2>=0.46
+
+# Knowledge Graph Embeddings
+pykeen>=1.10
+torch>=2.0
+numpy>=1.21
+scikit-learn>=1.3
+
+# RAG & Retrieval
+sentence-transformers>=2.0
+langchain-community>=0.4
+langchain-core>=1.0
+
+# Report generation
+python-docx>=1.2

@@ -1,0 +1,258 @@
+text,type,label,source_url,confidence,method
+Mario,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Luigi,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Princess Peach,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Peach,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Bowser,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Yoshi,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Donkey Kong,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Toad,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Rosalina,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Princess Daisy,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Daisy,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Wario,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Waluigi,CHARACTER,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Goomba,ENEMY,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Shy Guy,ENEMY,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Boo,ENEMY,Person,https://www.mariowiki.com/Mario,0.97,pattern
+Mushroom Kingdom,LOCATION,Location,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario Bros,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario Bros. 3,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario Bros. 2,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario World,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario Odyssey,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario Galaxy,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Mario Kart,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Mario Party,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Paper Mario,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Mario & Luigi,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Luigi's Mansion,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Yoshi's Island,GAME,GameTitle,https://www.mariowiki.com/Mario,0.97,pattern
+Fire Flower,ITEM,Item,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mushroom,ITEM,Item,https://www.mariowiki.com/Mario,0.97,pattern
+Super Star,ITEM,Item,https://www.mariowiki.com/Mario,0.97,pattern
+Nintendo,ORG,Organization,https://www.mariowiki.com/Mario,0.97,pattern
+Super Mario,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Japanese,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Shigeru Miyamoto,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Radar Scope,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+North America,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Hiroshi Yamauchi,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Miyamoto,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Popeye,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Japan,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+プレイヤー,ORGANIZATION,Organization,https://www.mariowiki.com/Mario,0.8,nltk
+American,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Jumpman,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+America,GPE,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Western,LOCATION,Location,https://www.mariowiki.com/Mario,0.8,nltk
+Minoru Arakawa,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Don James,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Mario Segale,PERSON,Person,https://www.mariowiki.com/Mario,0.8,nltk
+Kamek,CHARACTER,Person,https://www.mariowiki.com/Luigi,0.97,pattern
+Bowser Jr,CHARACTER,Person,https://www.mariowiki.com/Luigi,0.97,pattern
+Bowser's Castle,LOCATION,Location,https://www.mariowiki.com/Luigi,0.97,pattern
+Ice Flower,ITEM,Item,https://www.mariowiki.com/Luigi,0.97,pattern
+Super Mario,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi,0.8,nltk
+Watch,PERSON,Person,https://www.mariowiki.com/Luigi,0.8,nltk
+Gunpei Yokoi,PERSON,Person,https://www.mariowiki.com/Luigi,0.8,nltk
+Mario Bros,PERSON,Person,https://www.mariowiki.com/Luigi,0.8,nltk
+Joust,PERSON,Person,https://www.mariowiki.com/Luigi,0.8,nltk
+Shellcreeper,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi,0.8,nltk
+Atari,PERSON,Person,https://www.mariowiki.com/Luigi,0.8,nltk
+Peach Toadstool,CHARACTER,Person,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+King Koopa,CHARACTER,Person,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+Koopa Troopa,ENEMY,Person,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+Isle Delfino,LOCATION,Location,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+Toad Town,LOCATION,Location,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+Super Mario Bros 2,GAME,GameTitle,https://www.mariowiki.com/Princess_Peach,0.97,pattern
+Princess Toadstool,ORGANIZATION,Organization,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Safari,PERSON,Person,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Super,GPE,Location,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Castle Run,PERSON,Person,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Super Princess Peach,PERSON,Person,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Princess,ORGANIZATION,Organization,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Kotabe,PERSON,Person,https://www.mariowiki.com/Princess_Peach,0.8,nltk
+Thwomp,ENEMY,Person,https://www.mariowiki.com/Bowser,0.97,pattern
+Peach's Castle,LOCATION,Location,https://www.mariowiki.com/Bowser,0.97,pattern
+Lord Bowser,ORGANIZATION,Organization,https://www.mariowiki.com/Bowser,0.8,nltk
+Koopas,GPE,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Bosu Kurīpā,ORGANIZATION,Organization,https://www.mariowiki.com/Bowser,0.8,nltk
+Boss Creeper,PERSON,Person,https://www.mariowiki.com/Bowser,0.8,nltk
+Korean,GPE,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Miyamoto,GPE,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+불고기,ORGANIZATION,Organization,https://www.mariowiki.com/Bowser,0.8,nltk
+North American,LOCATION,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Chinese,GPE,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Journey,PERSON,Person,https://www.mariowiki.com/Bowser,0.8,nltk
+West,LOCATION,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Great,GPE,Location,https://www.mariowiki.com/Bowser,0.8,nltk
+Dinosaur Land,LOCATION,Location,https://www.mariowiki.com/Yoshi,0.97,pattern
+Super Mario Bros. 1993,GAME,GameTitle,https://www.mariowiki.com/Yoshi,0.97,pattern
+Donkey Kong Country,GAME,GameTitle,https://www.mariowiki.com/Yoshi,0.97,pattern
+Island,GPE,Location,https://www.mariowiki.com/Yoshi,0.8,nltk
+Shigeru,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Miyamoto,ORGANIZATION,Organization,https://www.mariowiki.com/Yoshi,0.8,nltk
+NES,ORGANIZATION,Organization,https://www.mariowiki.com/Yoshi,0.8,nltk
+Super Famicom,ORGANIZATION,Organization,https://www.mariowiki.com/Yoshi,0.8,nltk
+Shigefumi Hino,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Takashi Tezuka,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Yoichi Kotabe,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Mie Yoshimura,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Hino,PERSON,Person,https://www.mariowiki.com/Yoshi,0.8,nltk
+Hiroji Kiyotake,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+WarioWare,ORGANIZATION,Organization,https://www.mariowiki.com/Wario,0.8,nltk
+Super Smash,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+Wario Car,ORGANIZATION,Organization,https://www.mariowiki.com/Wario,0.8,nltk
+Wario Land,ORGANIZATION,Organization,https://www.mariowiki.com/Wario,0.8,nltk
+Wario Bike,ORGANIZATION,Organization,https://www.mariowiki.com/Wario,0.8,nltk
+Bulldog,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+Woods,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+Wario Land,GPE,Location,https://www.mariowiki.com/Wario,0.8,nltk
+Wario World,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+Diamond City,GPE,Location,https://www.mariowiki.com/Wario,0.8,nltk
+Super Smash,ORGANIZATION,Organization,https://www.mariowiki.com/Wario,0.8,nltk
+Mario Land,PERSON,Person,https://www.mariowiki.com/Wario,0.8,nltk
+DK,ORGANIZATION,Organization,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Donkey,GPE,Location,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Kong,GPE,Location,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Donkey Kong Island,GPE,Location,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+King K. Rool,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Kremlings,ORGANIZATION,Organization,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Diddy Kong,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Cranky Kong,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Lady,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+English,GPE,Location,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Universal City Studios,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Ltd,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Kong,PERSON,Person,https://www.mariowiki.com/Donkey_Kong,0.8,nltk
+Luma,CHARACTER,Person,https://www.mariowiki.com/Rosalina,0.97,pattern
+Mega Mushroom,ITEM,Item,https://www.mariowiki.com/Rosalina,0.97,pattern
+Princess Rosalina,ORGANIZATION,Organization,https://www.mariowiki.com/Rosalina,0.8,nltk
+Mario Galaxy,PERSON,Person,https://www.mariowiki.com/Rosalina,0.8,nltk
+Lubba,PERSON,Person,https://www.mariowiki.com/Rosalina,0.8,nltk
+Lumas,ORGANIZATION,Organization,https://www.mariowiki.com/Rosalina,0.8,nltk
+Comet Observatory,ORGANIZATION,Organization,https://www.mariowiki.com/Rosalina,0.8,nltk
+Star Wand,ORGANIZATION,Organization,https://www.mariowiki.com/Rosalina,0.8,nltk
+Nine,GPE,Location,https://www.mariowiki.com/Rosalina,0.8,nltk
+Star Bits,PERSON,Person,https://www.mariowiki.com/Rosalina,0.8,nltk
+Lumas,GPE,Location,https://www.mariowiki.com/Rosalina,0.8,nltk
+Switch,GPE,Location,https://www.mariowiki.com/Rosalina,0.8,nltk
+Power Stars,PERSON,Person,https://www.mariowiki.com/Rosalina,0.8,nltk
+Grand Stars,PERSON,Person,https://www.mariowiki.com/Rosalina,0.8,nltk
+Super,PERSON,Person,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Family Computer,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Nintendo Entertainment System,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Wii Sports,PERSON,Person,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+North,LOCATION,Location,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Lost Levels,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+NES Classic Edition,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Wii,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Wii U,PERSON,Person,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Nintendo Switch,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Nintendo Classics,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Nintendo Music,PERSON,Person,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Koopa,GPE,Location,https://www.mariowiki.com/Super_Mario_Bros.,0.8,nltk
+Star Road,LOCATION,Location,https://www.mariowiki.com/Super_Mario_World,0.97,pattern
+Super Mario Bros. 4,GAME,GameTitle,https://www.mariowiki.com/Super_Mario_World,0.97,pattern
+Cape Feather,ITEM,Item,https://www.mariowiki.com/Super_Mario_World,0.97,pattern
+Mario World,PERSON,Person,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Nintendo EAD,PERSON,Person,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Super Nintendo,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+SNES,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Various,GPE,Location,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Super Mario-kun,PERSON,Person,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Super Mario Advance,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Virtual Console,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Wii U,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+New,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_World,0.8,nltk
+Mario Odyssey,PERSON,Person,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Mario Portal,PERSON,Person,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+South Korea,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Taiwan,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+China,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Super Mario Sunshine,PERSON,Person,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Cappy,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Unique,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Cappy,PERSON,Person,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Power Moons,PERSON,Person,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+HDR,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+GameShare,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+GameChat,ORGANIZATION,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Donkey Kong Bananza,GPE,Location,https://www.mariowiki.com/Super_Mario_Odyssey,0.8,nltk
+Kart,ORGANIZATION,Organization,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Super Mario Kart,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Famicom Grand,ORGANIZATION,Organization,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Family Computer Disk System,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+EAD,ORGANIZATION,Organization,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Darran,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Jones,ORGANIZATION,Organization,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Imagine Publishing,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+NowGamer,ORGANIZATION,Organization,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Mario Kart Wii,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Mario Kart World,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Lakitu,PERSON,Person,https://www.mariowiki.com/Mario_Kart,0.8,nltk
+Professor,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+Dark Moon,PERSON,Person,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+GREZZO Co,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+GameCube,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+Nintendo Classics,PERSON,Person,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+Mansion,PERSON,Person,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+PST,ORGANIZATION,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,0.8,nltk
+Blocks,GPE,Location,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Warp Pipes,PERSON,Person,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Toads,PERSON,Person,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Super,ORGANIZATION,Organization,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Mushroom,ORGANIZATION,Organization,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Mario Sunshine,PERSON,Person,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Mushroom World,ORGANIZATION,Organization,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Mario Advance,PERSON,Person,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+New,GPE,Location,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Star Festival,ORGANIZATION,Organization,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Grand,GPE,Location,https://www.mariowiki.com/Mushroom_Kingdom,0.8,nltk
+Koopa,PERSON,Person,https://www.mariowiki.com/Koopa_Troopa,0.8,nltk
+Koopa,ORGANIZATION,Organization,https://www.mariowiki.com/Koopa_Troopa,0.8,nltk
+Goombas,ORGANIZATION,Organization,https://www.mariowiki.com/Koopa_Troopa,0.8,nltk
+Koopa Paratroopa,PERSON,Person,https://www.mariowiki.com/Koopa_Troopa,0.8,nltk
+Koopa Troopas,PERSON,Person,https://www.mariowiki.com/Koopa_Troopa,0.8,nltk
+Super Mario Bros 3,GAME,GameTitle,https://www.mariowiki.com/Goomba,0.97,pattern
+Super Mario Bros. 35,GAME,GameTitle,https://www.mariowiki.com/Goomba,0.97,pattern
+Goombas,GPE,Location,https://www.mariowiki.com/Goomba,0.8,nltk
+Little Goombas,PERSON,Person,https://www.mariowiki.com/Goomba,0.8,nltk
+Seven Stars,ORGANIZATION,Organization,https://www.mariowiki.com/Goomba,0.8,nltk
+Goombas,PERSON,Person,https://www.mariowiki.com/Goomba,0.8,nltk
+Goomba Village,PERSON,Person,https://www.mariowiki.com/Goomba,0.8,nltk
+Monstro Town,PERSON,Person,https://www.mariowiki.com/Goomba,0.8,nltk
+Rogueport,PERSON,Person,https://www.mariowiki.com/Goomba,0.8,nltk
+Bullet Bill,ENEMY,Person,https://www.mariowiki.com/Shy_Guy,0.97,pattern
+Shy,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Guys,GPE,Location,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Shyguys,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+ShyGuys,ORGANIZATION,Organization,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Guys,ORGANIZATION,Organization,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Yume,GPE,Location,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Doki Doki Panic,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Beezos,GPE,Location,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Shyguys,GPE,Location,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Autobombs,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Ostros,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Pink,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Red Shyguys,ORGANIZATION,Organization,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Super Mario Advance,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Fly Guys,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Snifits,GPE,Location,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Boo Guys,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Mario Maker,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Mario Challenge,PERSON,Person,https://www.mariowiki.com/Shy_Guy,0.8,nltk
+Fire,GPE,Location,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Flowers,ORGANIZATION,Organization,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Fireflowers,GPE,Location,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Flame Flowers,PERSON,Person,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Club Nintendo,PERSON,Person,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Fire Flowers,ORGANIZATION,Organization,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Club,GPE,Location,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Mushroom Cup,ORGANIZATION,Organization,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Mario Bros. Wii,PERSON,Person,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Gold Flower,ORGANIZATION,Organization,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Flower Points,PERSON,Person,https://www.mariowiki.com/Fire_Flower,0.8,nltk
+Buzzy Beetles,ORGANIZATION,Organization,https://www.mariowiki.com/Fire_Flower,0.8,nltk

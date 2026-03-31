@@ -1,0 +1,272 @@
+{
+  "http://dbpedia.org/resource/Mario": [
+    {
+      "entity": "http://it.dbpedia.org/resource/Nintendo_White_Knuckle_Scorin",
+      "label": "Nintendo_White_Knuckle_Scorin",
+      "sim": 0.33668798208236694
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1305295",
+      "label": "Q1305295",
+      "sim": 0.33358335494995117
+    },
+    {
+      "entity": "http://fi.dbpedia.org/resource/EarthBound",
+      "label": "EarthBound",
+      "sim": 0.32825905084609985
+    },
+    {
+      "entity": "http://arz.dbpedia.org/resource/\u0633\u0648\u067e\u064a\u0631_\u067e\u0631\u064a\u0646\u0633\u064a\u0633_\u067e\u0627\u064a\u062a\u0634",
+      "label": "\u0633\u0648\u067e\u064a\u0631_\u067e\u0631\u064a\u0646\u0633\u064a\u0633_\u067e\u0627\u064a\u062a\u0634",
+      "sim": 0.32823646068573
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q4035127",
+      "label": "Q4035127",
+      "sim": 0.3277885615825653
+    }
+  ],
+  "http://dbpedia.org/resource/Nintendo": [
+    {
+      "entity": "http://yago-knowledge.org/resource/The_Goonies_(Famicom_video_game)",
+      "label": "The_Goonies_(Famicom_video_game)",
+      "sim": 0.35831376910209656
+    },
+    {
+      "entity": "http://ca.dbpedia.org/resource/The_Legend_of_Zelda:_Twilight_Princess",
+      "label": "The_Legend_of_Zelda:_Twilight_Princess",
+      "sim": 0.3521278500556946
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Xbox_Game_Studios",
+      "label": "Xbox_Game_Studios",
+      "sim": 0.33848804235458374
+    },
+    {
+      "entity": "http://es.dbpedia.org/resource/Bowser_Jr.",
+      "label": "Bowser_Jr.",
+      "sim": 0.3372986912727356
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/NES-ROB.jpg",
+      "label": "NES-ROB.jpg",
+      "sim": 0.33271950483322144
+    }
+  ],
+  "http://dbpedia.org/resource/Shigeru_Miyamoto": [
+    {
+      "entity": "http://en.wikipedia.org/wiki/Link's_Crossbow_Training",
+      "label": "Link's_Crossbow_Training",
+      "sim": 0.3795948028564453
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/Beeindruckende_Fachwerkh\u00e4user_s\u00e4umen_den_historische_Marktplatz_in_Miltenberg.jpg",
+      "label": "Beeindruckende_Fachwerkh\u00e4user_s\u00e4umen_den_historische_Marktplatz_in_Miltenberg.jpg",
+      "sim": 0.36870378255844116
+    },
+    {
+      "entity": "http://zh.dbpedia.org/resource/\u62f3\u65e0\u865a\u53d1_(1987\u5e74\u6e38\u620f)",
+      "label": "\u62f3\u65e0\u865a\u53d1_(1987\u5e74\u6e38\u620f)",
+      "sim": 0.3546642065048218
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Category:Manufacturing_companies_based_in_Kyoto",
+      "label": "Category:Manufacturing_companies_based_in_Kyoto",
+      "sim": 0.350867360830307
+    },
+    {
+      "entity": "http://yago-knowledge.org/resource/Golf_(1984_video_game)",
+      "label": "Golf_(1984_video_game)",
+      "sim": 0.3469313085079193
+    }
+  ],
+  "http://dbpedia.org/resource/Super_Mario_Bros.": [
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/Qixingame.png",
+      "label": "Qixingame.png",
+      "sim": 0.3474998474121094
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/F-Zero_Climax_box.png?width=300",
+      "label": "F-Zero_Climax_box.png?width=300",
+      "sim": 0.3434743285179138
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Ever_Oasis",
+      "label": "Ever_Oasis",
+      "sim": 0.33827000856399536
+    },
+    {
+      "entity": "http://rdf.freebase.com/ns/m.0139zx72",
+      "label": "m.0139zx72",
+      "sim": 0.33267128467559814
+    },
+    {
+      "entity": "http://fr.dbpedia.org/resource/Mario_Golf:_Advance_Tour",
+      "label": "Mario_Golf:_Advance_Tour",
+      "sim": 0.32882851362228394
+    }
+  ],
+  "http://dbpedia.org/resource/Bowser_(character)": [
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/The_Legend_of_Zelda_Link's_Awakening_(2019_video_game).jpg",
+      "label": "The_Legend_of_Zelda_Link's_Awakening_(2019_video_game).jpg",
+      "sim": 0.40242910385131836
+    },
+    {
+      "entity": "http://ko.dbpedia.org/resource/\uc288\ud37c_\ub9c8\ub9ac\uc624_64",
+      "label": "\uc288\ud37c_\ub9c8\ub9ac\uc624_64",
+      "sim": 0.39260295033454895
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q2348788",
+      "label": "Q2348788",
+      "sim": 0.37662816047668457
+    },
+    {
+      "entity": "http://nl.dbpedia.org/resource/Fire_Emblem:_Shadow_Dragon_and_the_Blade_of_Light",
+      "label": "Fire_Emblem:_Shadow_Dragon_and_the_Blade_of_Light",
+      "sim": 0.3552221357822418
+    },
+    {
+      "entity": "http://sr.dbpedia.org/resource/Super_Mario_64",
+      "label": "Super_Mario_64",
+      "sim": 0.33497700095176697
+    }
+  ],
+  "http://dbpedia.org/resource/Game_Boy": [
+    {
+      "entity": "https://global.dbpedia.org/id/3bqdr",
+      "label": "3bqdr",
+      "sim": 0.41511279344558716
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Advance_Wars_1+2:_Re-Boot_Camp",
+      "label": "Advance_Wars_1+2:_Re-Boot_Camp",
+      "sim": 0.3730998635292053
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/Nintendo_Ultra64_DevKit_Joybus_Board_Connected.jpg",
+      "label": "Nintendo_Ultra64_DevKit_Joybus_Board_Connected.jpg",
+      "sim": 0.353784441947937
+    },
+    {
+      "entity": "http://ja.dbpedia.org/resource/\u30bc\u30ce\u30d6\u30ec\u30a4\u30c9",
+      "label": "\u30bc\u30ce\u30d6\u30ec\u30a4\u30c9",
+      "sim": 0.3475281596183777
+    },
+    {
+      "entity": "http://fi.dbpedia.org/resource/Battalion_Wars",
+      "label": "Battalion_Wars",
+      "sim": 0.3475274443626404
+    }
+  ],
+  "http://dbpedia.org/resource/Luigi": [
+    {
+      "entity": "http://en.wikipedia.org/wiki/Sujin_Taisen:_Number_Battles",
+      "label": "Sujin_Taisen:_Number_Battles",
+      "sim": 0.4371086061000824
+    },
+    {
+      "entity": "http://zh.dbpedia.org/resource/\u9a6c\u91cc\u5965\u7f51\u740364",
+      "label": "\u9a6c\u91cc\u5965\u7f51\u740364",
+      "sim": 0.3610203266143799
+    },
+    {
+      "entity": "http://ru.dbpedia.org/resource/Tokyo_Mirage_Sessions_\u266fFE",
+      "label": "Tokyo_Mirage_Sessions_\u266fFE",
+      "sim": 0.3575352430343628
+    },
+    {
+      "entity": "http://ca.dbpedia.org/resource/New_Super_Mario_Bros._U",
+      "label": "New_Super_Mario_Bros._U",
+      "sim": 0.3395552635192871
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Nintendo_European_Research_&_Development",
+      "label": "Nintendo_European_Research_&_Development",
+      "sim": 0.33747559785842896
+    }
+  ],
+  "http://dbpedia.org/resource/The_Legend_of_Zelda": [
+    {
+      "entity": "http://dbpedia.org/resource/Tsunekazu_Ishihara",
+      "label": "Tsunekazu_Ishihara",
+      "sim": 0.3682745695114136
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/BoxBoy_art.jpg",
+      "label": "BoxBoy_art.jpg",
+      "sim": 0.3536871075630188
+    },
+    {
+      "entity": "http://dbpedia.org/resource/1080\u00b0_Avalanche",
+      "label": "1080\u00b0_Avalanche",
+      "sim": 0.3515246510505676
+    },
+    {
+      "entity": "http://en.wikipedia.org/wiki/Takashi_Tezuka",
+      "label": "Takashi_Tezuka",
+      "sim": 0.3499450087547302
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q8563809",
+      "label": "Q8563809",
+      "sim": 0.34935712814331055
+    }
+  ],
+  "http://esilv.fr/mario#Mario": [
+    {
+      "entity": "http://dbpedia.org/resource/Category:Brain_Age",
+      "label": "Category:Brain_Age",
+      "sim": 0.36044758558273315
+    },
+    {
+      "entity": "http://de.dbpedia.org/resource/Mario_Kart",
+      "label": "Mario_Kart",
+      "sim": 0.3585117757320404
+    },
+    {
+      "entity": "http://it.dbpedia.org/resource/Custom_Robo_Arena",
+      "label": "Custom_Robo_Arena",
+      "sim": 0.3564985990524292
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Wii_Play:_Motion",
+      "label": "Wii_Play:_Motion",
+      "sim": 0.3429911732673645
+    },
+    {
+      "entity": "http://rdf.freebase.com/ns/m.0cc71t2",
+      "label": "m.0cc71t2",
+      "sim": 0.3358585834503174
+    }
+  ],
+  "http://esilv.fr/mario#Luigi": [
+    {
+      "entity": "http://dbpedia.org/resource/Category:Mario_racing_games",
+      "label": "Category:Mario_racing_games",
+      "sim": 0.40332669019699097
+    },
+    {
+      "entity": "http://dbpedia.org/resource/Joel_McNeely",
+      "label": "Joel_McNeely",
+      "sim": 0.4022638499736786
+    },
+    {
+      "entity": "http://commons.wikimedia.org/wiki/Special:FilePath/Wario_Land_II_NA_Box_Art.jpg?width=300",
+      "label": "Wario_Land_II_NA_Box_Art.jpg?width=300",
+      "sim": 0.3741820752620697
+    },
+    {
+      "entity": "http://rdf.freebase.com/ns/m.0z6tqy_",
+      "label": "m.0z6tqy_",
+      "sim": 0.3405308425426483
+    },
+    {
+      "entity": "http://ru.dbpedia.org/resource/Game_Boy_Micro",
+      "label": "Game_Boy_Micro",
+      "sim": 0.33872291445732117
+    }
+  ]
+}

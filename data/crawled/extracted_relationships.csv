@@ -1,0 +1,624 @@
+subject,subject_type,predicate,object,object_type,source_url,method
+Mario,Person,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Japan,Location,https://www.mariowiki.com/Mario,cooccurrence
+Japanese,Location,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Japanese,Location,co_occurs_with,Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Donkey Kong,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Jumpman,Person,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Jumpman,Person,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario,Person,defeats,Fire Flower,Item,https://www.mariowiki.com/Mario,svo
+Mario,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Princess Peach,Person,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Peach,Person,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Bowser,Person,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Yoshi,Person,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Radar Scope,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,North America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Hiroshi Yamauchi,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Miyamoto,Person,co_occurs_with,Popeye,Location,https://www.mariowiki.com/Mario,cooccurrence
+Miyamoto,Person,created_by,Mario,Person,https://www.mariowiki.com/Mario,svo
+Japanese,Location,co_occurs_with,Japan,Location,https://www.mariowiki.com/Mario,cooccurrence
+Japanese,Location,co_occurs_with,プレイヤー,Organization,https://www.mariowiki.com/Mario,cooccurrence
+Japan,Location,co_occurs_with,プレイヤー,Organization,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,American,Location,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Jumpman,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Western,Location,https://www.mariowiki.com/Mario,cooccurrence
+Japan,Location,co_occurs_with,American,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,American,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Minoru Arakawa,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Don James,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Mario Segale,Person,https://www.mariowiki.com/Mario,cooccurrence
+American,Location,co_occurs_with,America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Japan,Location,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Japan,Location,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario,Person,saves,Princess Peach,Person,https://www.mariowiki.com/Mario,svo
+Mario,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Paper Mario,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Paper Mario,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario Party,GameTitle,co_occurs_with,Paper Mario,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Luigi,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Yoshi,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Yoshi's Island,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Yoshi's Island,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Yoshi,Person,co_occurs_with,Yoshi's Island,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Mario & Luigi,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Luigi,Person,co_occurs_with,Mario & Luigi,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Peach,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Bowser,Person,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Popeye,Location,https://www.mariowiki.com/Mario,cooccurrence
+Nintendo,Organization,co_occurs_with,Popeye,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Shigeru Miyamoto,Person,co_occurs_with,Miyamoto,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,North America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,North America,Location,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,American,Location,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Bros. 3,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Super Mario Bros. 3,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Donkey Kong,Person,appears_in,Mario,Person,https://www.mariowiki.com/Mario,svo
+Super Mario Bros,GameTitle,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Super Mario Bros. 3,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario Bros. 3,GameTitle,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Super Mario World,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario World,GameTitle,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Bros. 2,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Super Mario Bros. 2,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Super Mario World,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Peach,Person,co_occurs_with,peach,Person,https://www.mariowiki.com/Mario,cooccurrence
+Peach,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Mario,cooccurrence
+Mario,Person,co_occurs_with,Luigi's Mansion,GameTitle,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Luigi's Mansion,GameTitle,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi's Mansion,GameTitle,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Watch,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Watch,Person,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,created_by,Mario,Person,https://www.mariowiki.com/Luigi,svo
+Gunpei Yokoi,Person,located_in,Mario,Person,https://www.mariowiki.com/Luigi,svo
+Mario,Person,co_occurs_with,Joust,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Joust,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Shellcreeper,Organization,enemy_of,Luigi,Person,https://www.mariowiki.com/Luigi,svo
+Luigi,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,America,Location,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Atari,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Nintendo,Organization,co_occurs_with,Atari,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Super Mario,Organization,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Atari,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Nintendo,Organization,co_occurs_with,Mario Bros,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi's Mansion,GameTitle,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Peach,Person,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Luigi,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Luigi's Mansion,GameTitle,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Wario,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Wario,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Wario,Person,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Bowser Jr,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Shigeru Miyamoto,Person,enemy_of,Shellcreeper,Organization,https://www.mariowiki.com/Luigi,svo
+Luigi,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Princess Peach,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Luigi,Person,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Luigi,cooccurrence
+Mario,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Princess Toadstool,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Super Mario,Person,created_by,Mario,Person,https://www.mariowiki.com/Princess_Peach,svo
+Peach,Person,appears_in,Mario,Person,https://www.mariowiki.com/Princess_Peach,svo
+Princess Peach,Person,co_occurs_with,Peach,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Princess Toadstool,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Castle Run,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Super Princess Peach,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Kotabe,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Shigeru Miyamoto,Person,co_occurs_with,Kotabe,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Japan,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Japan,Location,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Super Mario World,GameTitle,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Bros 2,GameTitle,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Princess,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Safari,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Peach Toadstool,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Princess Toadstool,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Toad,Person,co_occurs_with,Princess Toadstool,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Toad,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Japan,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Princess,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess Peach,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,Princess,Organization,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Princess,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Princess_Peach,svo
+Peach,Person,co_occurs_with,Bowser,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Luigi,Person,co_occurs_with,Rosalina,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Luigi,Person,co_occurs_with,Waluigi,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Rosalina,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Waluigi,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Rosalina,Person,co_occurs_with,Waluigi,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Super Mario,Organization,co_occurs_with,Super,Location,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Super,Location,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Peach,Person,co_occurs_with,Mario & Luigi,GameTitle,https://www.mariowiki.com/Princess_Peach,cooccurrence
+Mario,Person,co_occurs_with,King Koopa,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Lord Bowser,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Koopas,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Super,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Princess Peach,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Peach,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,created_by,Mario,Person,https://www.mariowiki.com/Bowser,svo
+Bosu Kurīpā,Organization,co_occurs_with,Boss Creeper,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,Korean,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Korean,Location,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Korean,Location,co_occurs_with,Miyamoto,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,불고기,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+American,Location,appears_in,Bowser,Person,https://www.mariowiki.com/Bowser,svo
+Bowser,Person,co_occurs_with,Koopa Troopa,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,Chinese,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,Journey,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,West,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,Great,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Miyamoto,Person,co_occurs_with,American,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Nintendo,Organization,co_occurs_with,Super,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Miyamoto,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Chinese,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Super,Location,kidnaps,Luigi,Person,https://www.mariowiki.com/Bowser,svo
+Bowser,Person,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Bowser,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+Luigi,Person,co_occurs_with,Bowser Jr,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Odyssey,GameTitle,https://www.mariowiki.com/Bowser,cooccurrence
+Super Mario Odyssey,GameTitle,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Bowser,cooccurrence
+Super Mario Odyssey,GameTitle,co_occurs_with,Super,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Kamek,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Galaxy,GameTitle,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,Journey,Person,https://www.mariowiki.com/Bowser,cooccurrence
+Mario,Person,co_occurs_with,West,Location,https://www.mariowiki.com/Bowser,cooccurrence
+Bowser,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Bowser,cooccurrence
+yoshi,Person,ally_of,Mario,Person,https://www.mariowiki.com/Yoshi,svo
+Yoshi,Person,co_occurs_with,yoshi,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Island,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi's Island,GameTitle,co_occurs_with,Island,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,Island,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,Shigeru,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Shigeru,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Miyamoto,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,Super Famicom,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+yoshi,Person,created_by,Shigefumi Hino,Person,https://www.mariowiki.com/Yoshi,svo
+Yoshi,Person,co_occurs_with,NES,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Yoichi Kotabe,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Mie Yoshimura,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+NES,Organization,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,Dinosaur Land,Location,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,Hino,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Dinosaur Land,Location,co_occurs_with,Super Mario World,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Dinosaur Land,Location,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Hino,Person,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Nintendo,Organization,co_occurs_with,NES,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Super Mario World,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Mario,Person,co_occurs_with,NES,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Paper Mario,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Super Mario Bros,GameTitle,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Super Mario Galaxy,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Super Mario,Organization,located_in,Mario,Person,https://www.mariowiki.com/Yoshi,svo
+Super Mario,Organization,published_by,Nintendo,Organization,https://www.mariowiki.com/Yoshi,svo
+yoshi,Person,defeats,Mario,Person,https://www.mariowiki.com/Yoshi,svo
+Yoshi,Person,co_occurs_with,Super Mario,Organization,https://www.mariowiki.com/Yoshi,cooccurrence
+Yoshi,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Yoshi,cooccurrence
+Super,Location,created_by,Mario,Person,https://www.mariowiki.com/Wario,svo
+Super,Location,rival_of,Mario,Person,https://www.mariowiki.com/Wario,svo
+Wario,Person,co_occurs_with,WarioWare,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Wario Land,Organization,https://www.mariowiki.com/Wario,cooccurrence
+WarioWare,Organization,co_occurs_with,Wario Land,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Hiroji Kiyotake,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Yoichi Kotabe,Person,https://www.mariowiki.com/Wario,cooccurrence
+Super Mario,Organization,co_occurs_with,Yoichi Kotabe,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Super Smash,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Wario,cooccurrence
+WarioWare,Organization,co_occurs_with,Super Smash,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Wario Car,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Wario Bike,Organization,https://www.mariowiki.com/Wario,cooccurrence
+WarioWare,Organization,co_occurs_with,Wario Car,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Bulldog,Person,appears_in,Mario,Person,https://www.mariowiki.com/Wario,svo
+Wario,Person,co_occurs_with,Wario World,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario Land,Organization,co_occurs_with,Wario World,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Diamond City,Location,https://www.mariowiki.com/Wario,cooccurrence
+WarioWare,Organization,co_occurs_with,Diamond City,Location,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,appears_in,Mario,Person,https://www.mariowiki.com/Wario,svo
+Mario,Person,co_occurs_with,Mario Land,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Princess Daisy,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Daisy,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Wario,cooccurrence
+Donkey Kong,Person,co_occurs_with,Wario,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Wario Land,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Super Smash,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Mario Party,GameTitle,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Wario,cooccurrence
+Boo,Person,co_occurs_with,Wario World,Person,https://www.mariowiki.com/Wario,cooccurrence
+Mario,Person,co_occurs_with,Waluigi,Person,https://www.mariowiki.com/Wario,cooccurrence
+Wario,Person,co_occurs_with,Waluigi,Person,https://www.mariowiki.com/Wario,cooccurrence
+Super Smash,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Wario,cooccurrence
+Super,Location,appears_in,Mario,Person,https://www.mariowiki.com/Wario,svo
+Donkey Kong,Person,co_occurs_with,DK,Organization,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+DK,Organization,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+DK,Organization,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Mario,Person,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Mario,Person,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Kong,Person,developed_by,Donkey Kong,Person,https://www.mariowiki.com/Donkey_Kong,svo
+Donkey Kong,Person,co_occurs_with,King K. Rool,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Kremlings,Organization,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey,Location,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Diddy Kong,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey,Location,co_occurs_with,Diddy Kong,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Mario,Person,co_occurs_with,Donkey Kong Country,GameTitle,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Donkey Kong Country,GameTitle,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Cranky Kong,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong Country,GameTitle,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey,Location,co_occurs_with,Cranky Kong,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Kong,Person,kidnaps,Mario,Person,https://www.mariowiki.com/Donkey_Kong,svo
+Kong,Person,created_by,Mario,Person,https://www.mariowiki.com/Donkey_Kong,svo
+Donkey,Location,co_occurs_with,Japan,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey,Location,co_occurs_with,Miyamoto,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Japan,Location,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Miyamoto,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,America,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Nintendo,Organization,co_occurs_with,Universal City Studios,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Nintendo,Organization,co_occurs_with,Ltd,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Universal City Studios,Person,co_occurs_with,Ltd,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Shigeru Miyamoto,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong Country,GameTitle,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Toad,Person,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Toad,Person,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Kong,Person,appears_in,Donkey Kong,Person,https://www.mariowiki.com/Donkey_Kong,svo
+Donkey,Location,co_occurs_with,King K. Rool,Person,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong Country,GameTitle,co_occurs_with,DK,Organization,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Bowser,Person,co_occurs_with,Mario Kart,GameTitle,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Donkey Kong Country,GameTitle,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Nintendo,Organization,co_occurs_with,Donkey,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Nintendo,Organization,co_occurs_with,Kong,Location,https://www.mariowiki.com/Donkey_Kong,cooccurrence
+Kong,Person,appears_in,Mario,Person,https://www.mariowiki.com/Donkey_Kong,svo
+Princess Rosalina,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Luma,Person,co_occurs_with,Lubba,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Luma,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Luma,Person,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Lubba,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Lubba,Person,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Rosalina,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Mario Galaxy,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Luma,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Switch,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Power Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Grand Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,Power Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,appears_in,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Mario,Person,co_occurs_with,Luma,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Luigi,Person,co_occurs_with,Luma,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Peach,Person,co_occurs_with,Luma,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Power Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Luigi,Person,co_occurs_with,Power Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Power Stars,Person,appears_in,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Bowser,Person,co_occurs_with,Rosalina,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Lumas,Location,appears_in,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Lumas,Location,created_by,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Rosalina,Person,co_occurs_with,Power Stars,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Lubba,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Switch,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Boo,Person,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Boo,Person,co_occurs_with,Lubba,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Power Stars,Person,defeats,Mario,Person,https://www.mariowiki.com/Rosalina,svo
+Mario,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Luigi,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Yoshi,Person,co_occurs_with,Rosalina,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Luigi,Person,co_occurs_with,Super Mario Galaxy,GameTitle,https://www.mariowiki.com/Rosalina,cooccurrence
+Luigi,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Super Star,Item,co_occurs_with,Super,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Luma,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Lumas,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Super,Location,co_occurs_with,Comet Observatory,Organization,https://www.mariowiki.com/Rosalina,cooccurrence
+Luma,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Super Mario Galaxy,GameTitle,https://www.mariowiki.com/Rosalina,cooccurrence
+Super Mario Galaxy,GameTitle,co_occurs_with,Super,Location,https://www.mariowiki.com/Rosalina,cooccurrence
+Super Mario Galaxy,GameTitle,co_occurs_with,Mario Galaxy,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Super,Location,co_occurs_with,Mario Galaxy,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Super Mario Odyssey,GameTitle,https://www.mariowiki.com/Rosalina,cooccurrence
+Bowser,Person,co_occurs_with,Yoshi,Person,https://www.mariowiki.com/Rosalina,cooccurrence
+Rosalina,Person,co_occurs_with,Super Mario Bros,GameTitle,https://www.mariowiki.com/Rosalina,cooccurrence
+Mario,Person,co_occurs_with,Family Computer,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Nintendo Entertainment System,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Super Mario,Person,appears_in,Princess Peach,Person,https://www.mariowiki.com/Super_Mario_Bros.,svo
+Mario,Person,co_occurs_with,North,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Wii Sports,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Wii,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Japan,Location,co_occurs_with,English,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Japan,Location,co_occurs_with,NES,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+English,Location,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+English,Location,co_occurs_with,NES,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Japanese,Location,co_occurs_with,NES,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Nintendo,Organization,co_occurs_with,Nintendo Entertainment System,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Nintendo,Organization,co_occurs_with,NES Classic Edition,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Nintendo,Organization,co_occurs_with,Wii,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Nintendo,Organization,co_occurs_with,Wii U,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Nintendo,Organization,co_occurs_with,Nintendo Switch,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Nintendo Music,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,NES,Organization,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Koopa,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+King Koopa,Person,co_occurs_with,Toad,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+King Koopa,Person,co_occurs_with,Koopa,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Toad,Person,co_occurs_with,Koopa,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Koopa Troopa,Person,co_occurs_with,Koopa,Location,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Mario,Person,co_occurs_with,Koopa Troopa,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Super Mario,Person,enemy_of,Mario,Person,https://www.mariowiki.com/Super_Mario_Bros.,svo
+Mario,Person,co_occurs_with,Fire Flower,Item,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Fire Flower,Item,co_occurs_with,Super,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Fire Flower,Item,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Super_Mario_Bros.,cooccurrence
+Super,Location,developed_by,Nintendo,Organization,https://www.mariowiki.com/Super_Mario_World,svo
+Super,Person,co_occurs_with,Super Famicom,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Super Famicom,Organization,co_occurs_with,Super,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Super,Location,fights,New,Organization,https://www.mariowiki.com/Super_Mario_World,svo
+Mario,Person,co_occurs_with,Mario World,Person,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Nintendo,Organization,co_occurs_with,SNES,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Nintendo,Organization,co_occurs_with,Various,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+SNES,Organization,co_occurs_with,Various,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Island,Location,located_in,Mario,Person,https://www.mariowiki.com/Super_Mario_World,svo
+Nintendo,Organization,co_occurs_with,Virtual Console,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Nintendo,Organization,co_occurs_with,New,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Wii,Organization,co_occurs_with,Virtual Console,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Wii,Organization,co_occurs_with,Wii U,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+New,Organization,lives_in,Cape Feather,Item,https://www.mariowiki.com/Super_Mario_World,svo
+Dinosaur Land,Location,co_occurs_with,dinosaur land,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+YOSHI,Person,located_in,Yoshi,Person,https://www.mariowiki.com/Super_Mario_World,svo
+Bowser,Person,co_occurs_with,Dinosaur Land,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Yoshi,Person,co_occurs_with,Dinosaur Land,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+dinosaur land,Location,fights,Toad,Person,https://www.mariowiki.com/Super_Mario_World,svo
+Mario,Person,co_occurs_with,New,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Luigi,Person,co_occurs_with,New,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Toad,Person,co_occurs_with,New,Organization,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Mario,Person,co_occurs_with,Various,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Luigi,Person,co_occurs_with,Various,Location,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Mario,Person,co_occurs_with,Super Mushroom,Item,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+Super Mushroom,Item,co_occurs_with,Super,Person,https://www.mariowiki.com/Super_Mario_World,cooccurrence
+New,Organization,appears_in,Cape Feather,Item,https://www.mariowiki.com/Super_Mario_World,svo
+New,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Super_Mario_World,svo
+Mario,Person,co_occurs_with,Mario Odyssey,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Nintendo Switch,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Mario Portal,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Nintendo,Organization,co_occurs_with,Switch,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Nintendo Switch,Organization,co_occurs_with,Switch,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+South Korea,Location,co_occurs_with,Taiwan,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+South Korea,Location,co_occurs_with,China,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Taiwan,Location,co_occurs_with,China,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Sunshine,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Cappy,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Unique,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Cappy,Location,co_occurs_with,Unique,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Unique,Location,co_occurs_with,Cappy,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Nintendo,Organization,co_occurs_with,HDR,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Nintendo,Organization,co_occurs_with,GameShare,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Nintendo,Organization,co_occurs_with,GameChat,Organization,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Peach's Castle,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Princess Peach,Person,co_occurs_with,Bowser,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Bowser,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Cappy,Person,kidnaps,Peach,Person,https://www.mariowiki.com/Super_Mario_Odyssey,svo
+Peach,Person,co_occurs_with,Cappy,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,co_occurs_with,Power Moons,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Cappy,Location,co_occurs_with,Power Moons,Person,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Bowser,Person,co_occurs_with,Cappy,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Mario,Person,saves,Cappy,Location,https://www.mariowiki.com/Super_Mario_Odyssey,svo
+Bowser,Person,co_occurs_with,Bowser's Castle,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Peach,Person,co_occurs_with,Bowser's Castle,Location,https://www.mariowiki.com/Super_Mario_Odyssey,cooccurrence
+Kart,Organization,developed_by,Mario,Person,https://www.mariowiki.com/Mario_Kart,svo
+Kart,Organization,published_by,Mario,Person,https://www.mariowiki.com/Mario_Kart,svo
+Mario,Person,co_occurs_with,Kart,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Super Mario Kart,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Super Nintendo,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Kart,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Paper Mario,GameTitle,co_occurs_with,Super Smash,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Paper Mario,GameTitle,co_occurs_with,Super,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Famicom Grand,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Family Computer Disk System,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Nintendo,Organization,co_occurs_with,Super Nintendo,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Super Nintendo,Organization,co_occurs_with,Japanese,Location,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Super Nintendo,Organization,co_occurs_with,Super,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Japanese,Location,co_occurs_with,Super,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Kart,Organization,co_occurs_with,Super Mario,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,SNES,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,EAD,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Darran,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Jones,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Mario Kart Wii,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Mario Kart World,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Mario Kart Wii,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Mario Kart World,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Kart,Organization,co_occurs_with,Mario Kart World,Person,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario,Person,co_occurs_with,Bowser's Castle,Location,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,SNES,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,EAD,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Kart,Organization,co_occurs_with,EAD,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Nintendo,Organization,co_occurs_with,Kart,Organization,https://www.mariowiki.com/Mario_Kart,cooccurrence
+Super,Person,rival_of,Luigi,Person,https://www.mariowiki.com/Mario_Kart,svo
+Luigi,Person,co_occurs_with,GameCube,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi's Mansion,GameTitle,co_occurs_with,GameCube,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,Professor,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Boo,Person,co_occurs_with,Professor,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+GameCube,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Luigi,Person,co_occurs_with,Dark Moon,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,Nintendo Switch,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Mansion,Person,developed_by,Nintendo,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Nintendo,Organization,co_occurs_with,GameCube,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Nintendo,Organization,co_occurs_with,Nintendo Classics,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Nintendo Switch,Organization,co_occurs_with,GameCube,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Nintendo Switch,Organization,co_occurs_with,Nintendo Classics,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+GameCube,Organization,co_occurs_with,Nintendo Classics,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,Nintendo Music,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,co_occurs_with,PST,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,located_in,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Mario,Person,co_occurs_with,Professor,Organization,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Boo,Person,co_occurs_with,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Professor,Organization,co_occurs_with,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,kidnaps,Boo,Person,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Luigi,Person,appears_in,Mario,Person,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Toad,Person,co_occurs_with,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Mario,Person,co_occurs_with,Mansion,Person,https://www.mariowiki.com/Luigi%27s_Mansion,cooccurrence
+Luigi,Person,defeats,Boo,Person,https://www.mariowiki.com/Luigi%27s_Mansion,svo
+Mario,Person,co_occurs_with,Mushroom,Organization,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Blocks,Location,co_occurs_with,Warp Pipes,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Princess Peach,Person,co_occurs_with,Toads,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Peach,Person,co_occurs_with,Toads,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Toad,Person,co_occurs_with,Toads,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Mario,Person,co_occurs_with,Isle Delfino,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Super,Person,kidnaps,Princess Peach,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Luigi,Person,saves,Mario,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Super,Person,created_by,Peach,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Mario Galaxy,Person,appears_in,Peach,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Star Festival,Organization,co_occurs_with,Grand,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Bowser,Person,co_occurs_with,New,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Luma,Person,co_occurs_with,New,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Peach,Person,co_occurs_with,Peach's Castle,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,Mushroom,Organization,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Bowser,Person,kidnaps,Peach,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Toad,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Toad,Person,co_occurs_with,Mushroom,Organization,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,Toads,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Toads,Person,co_occurs_with,Mushroom,Organization,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Toad,Person,co_occurs_with,Peach's Castle,Location,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Peach's Castle,Location,co_occurs_with,Toads,Person,https://www.mariowiki.com/Mushroom_Kingdom,cooccurrence
+Mushroom,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Mario,Person,saves,Peach,Person,https://www.mariowiki.com/Mushroom_Kingdom,svo
+Koopa Troopa,Person,co_occurs_with,Koopa Troopas,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Koopa,Person,co_occurs_with,Koopa Troopas,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Bowser,Person,enemy_of,Mario,Person,https://www.mariowiki.com/Koopa_Troopa,svo
+Mario Kart,GameTitle,co_occurs_with,Super,Location,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Mario Kart,GameTitle,co_occurs_with,Super Mario Kart,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Mario,Person,co_occurs_with,Shellcreeper,Organization,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Koopa,Person,co_occurs_with,Koopa Paratroopa,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Koopa,Organization,lives_in,Mario,Person,https://www.mariowiki.com/Koopa_Troopa,svo
+Bowser,Person,co_occurs_with,Koopa,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Koopa,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Koopa_Troopa,svo
+Mario,Person,co_occurs_with,Koopa Troopas,Person,https://www.mariowiki.com/Koopa_Troopa,cooccurrence
+Koopa,Organization,defeats,Koopa Troopa,Person,https://www.mariowiki.com/Koopa_Troopa,svo
+Koopa,Organization,appears_in,Koopa Troopa,Person,https://www.mariowiki.com/Koopa_Troopa,svo
+Mario,Person,co_occurs_with,MARIO,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Mario,Person,co_occurs_with,Goomba,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Mario,Person,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Mario,Person,co_occurs_with,Little Goombas,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Goombas,Person,defeats,Goomba,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,co_occurs_with,Mushroom Kingdom,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Mushroom Kingdom,Location,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Bowser,Person,co_occurs_with,Goomba,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Bowser,Person,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,co_occurs_with,Goomba Village,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,co_occurs_with,Monstro Town,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,created_by,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,enemy_of,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goombas,Person,enemy_of,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,co_occurs_with,Little Goombas,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Goombas,Location,co_occurs_with,Little Goombas,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Little Goombas,Person,co_occurs_with,Goombas,Organization,https://www.mariowiki.com/Goomba,cooccurrence
+Goombas,Person,defeats,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,appears_in,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,defeats,Mario,Person,https://www.mariowiki.com/Goomba,svo
+Goomba,Person,co_occurs_with,Super Mushroom,Item,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,co_occurs_with,Super,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Super Mushroom,Item,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Goomba,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Goomba,cooccurrence
+Boo,Person,co_occurs_with,Goombas,Location,https://www.mariowiki.com/Goomba,cooccurrence
+Shy Guy,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy Guy,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy Guy,Person,co_occurs_with,Shyguys,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Mario,Person,co_occurs_with,Shy Guy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Mario,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Mario,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Mario,Person,co_occurs_with,Shyguys,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Beezos,Location,co_occurs_with,Snifits,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy,Person,co_occurs_with,Shyguys,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Guys,Location,co_occurs_with,Shyguys,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy,Person,co_occurs_with,Autobombs,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy,Person,co_occurs_with,Red Shyguys,Organization,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shyguys,Location,fights,Shy,Person,https://www.mariowiki.com/Shy_Guy,svo
+Shyguys,Location,created_by,Mario,Person,https://www.mariowiki.com/Shy_Guy,svo
+Luigi,Person,co_occurs_with,Shy Guy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Luigi,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Luigi,Person,co_occurs_with,Koopa,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy Guy,Person,co_occurs_with,Koopa,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy,Person,co_occurs_with,Koopa,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Yoshi,Person,co_occurs_with,Shy Guy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Luigi,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Toad,Person,co_occurs_with,Shy Guy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Yoshi,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Yoshi,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy Guy,Person,co_occurs_with,Yoshi's Island,GameTitle,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Bowser,Person,co_occurs_with,Shy Guy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Bowser,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Bowser,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Shy Guy,Person,co_occurs_with,Boo,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Boo,Person,co_occurs_with,Shy,Person,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Boo,Person,co_occurs_with,Guys,Location,https://www.mariowiki.com/Shy_Guy,cooccurrence
+Fire Flowers,Organization,appears_in,Mario,Person,https://www.mariowiki.com/Fire_Flower,svo
+Mario,Person,co_occurs_with,Fire,Location,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Mario,Person,co_occurs_with,Flowers,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Mario,Person,co_occurs_with,Club Nintendo,Person,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,fire flower,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Super Mushroom,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Fire,Location,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Mushroom Cup,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Super Mario,Person,appears_in,Fire Flower,Item,https://www.mariowiki.com/Fire_Flower,svo
+Fire Flower,Item,co_occurs_with,Flowers,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Fire Flowers,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Mario,Person,co_occurs_with,Ice Flower,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Flower Points,Person,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire,Location,co_occurs_with,Flower Points,Person,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Bowser,Person,co_occurs_with,Fire,Location,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire,Location,co_occurs_with,Buzzy Beetles,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Nintendo,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Nintendo,Organization,co_occurs_with,Fire,Location,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Wario,Person,co_occurs_with,Fire Flower,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Wario,Person,co_occurs_with,Fire,Location,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Mario,Person,co_occurs_with,Fire Flowers,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Luigi,Person,co_occurs_with,Fire Flower,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Fire Flower,Item,co_occurs_with,Ice Flower,Item,https://www.mariowiki.com/Fire_Flower,cooccurrence
+Mario,Person,co_occurs_with,Gold Flower,Organization,https://www.mariowiki.com/Fire_Flower,cooccurrence

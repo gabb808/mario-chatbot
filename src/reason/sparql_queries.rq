@@ -1,0 +1,145 @@
+# ─────────────────────────────────────────────────────────
+#  TD3 — SPARQL Queries for the Family Ontology
+#  Ontology: family_completed.ttl  (BASE = http://www.owl-ontologies.com/family_lab.owl#)
+# ─────────────────────────────────────────────────────────
+
+PREFIX ns:  <http://www.owl-ontologies.com/family_lab.owl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# ── Q1 How old is Peter? ─────────────────────────────────────────────────────
+SELECT ?age WHERE {
+  ns:Peter ns:age ?age .
+}
+
+# ── Q2 Who are Sylvie's parents? ─────────────────────────────────────────────
+SELECT ?parent ?name WHERE {
+  ns:Sylvie ns:isChildOf ?parent .
+  OPTIONAL { ?parent ns:name ?name }
+}
+
+# ── Q3 Which women are older than 30? ────────────────────────────────────────
+SELECT ?woman ?age WHERE {
+  ?woman a ns:Female .
+  ?woman ns:age ?age .
+  FILTER (?age > 30)
+}
+
+# ── Q4 List all instances of Person ──────────────────────────────────────────
+SELECT ?person WHERE {
+  ?person a ns:Person .
+  FILTER (!isBlank(?person))
+}
+
+# ── Q5 List all instances of Son ─────────────────────────────────────────────
+SELECT ?son WHERE {
+  ?son a ns:Son .
+  FILTER (!isBlank(?son))
+}
+
+# ── Q6 List all instances of Daughter ────────────────────────────────────────
+SELECT ?daughter WHERE {
+  ?daughter a ns:Daughter .
+  FILTER (!isBlank(?daughter))
+}
+
+# ── Q7 List all instances of Parent ──────────────────────────────────────────
+SELECT ?parent WHERE {
+  ?parent a ns:Parent .
+  FILTER (!isBlank(?parent))
+}
+
+# ── Q8 List all instances of Father ──────────────────────────────────────────
+SELECT ?father WHERE {
+  ?father a ns:Father .
+  FILTER (!isBlank(?father))
+}
+
+# ── Q9 List all instances of Mother ──────────────────────────────────────────
+SELECT ?mother WHERE {
+  ?mother a ns:Mother .
+  FILTER (!isBlank(?mother))
+}
+
+# ── Q10 List all Grandmothers ────────────────────────────────────────────────
+SELECT ?gm WHERE {
+  ?gm a ns:Grandmother .
+  FILTER (!isBlank(?gm))
+}
+
+# ── Q11 List all Grandfathers ────────────────────────────────────────────────
+SELECT ?gf WHERE {
+  ?gf a ns:Grandfather .
+  FILTER (!isBlank(?gf))
+}
+
+# ── Q12 List all Brothers ────────────────────────────────────────────────────
+SELECT ?brother WHERE {
+  ?brother a ns:Brother .
+  FILTER (!isBlank(?brother))
+}
+
+# ── Q13 List all Sisters ─────────────────────────────────────────────────────
+SELECT ?sister WHERE {
+  ?sister a ns:Sister .
+  FILTER (!isBlank(?sister))
+}
+
+# ── Q14 Peter's children (with name and age) ─────────────────────────────────
+SELECT ?child ?name ?age WHERE {
+  ns:Peter ns:isFatherOf ?child .
+  OPTIONAL { ?child ns:name ?name }
+  OPTIONAL { ?child ns:age  ?age }
+}
+ORDER BY ?name
+
+# ── Q15 Persons whose father is older than 40 ────────────────────────────────
+SELECT ?person ?father ?fatherAge WHERE {
+  ?person ns:isChildOf ?father .
+  ?father a ns:Male .
+  ?father ns:age ?fatherAge .
+  FILTER (?fatherAge > 40)
+  FILTER (!isBlank(?person))
+}
+
+# ── Q16 French persons (possibly married) ────────────────────────────────────
+SELECT ?person ?name ?age ?spouseName WHERE {
+  ?person ns:nationality "French" .
+  ?person ns:name ?name .
+  ?person ns:age ?age .
+  OPTIONAL {
+    ?person ns:isMarriedWith ?spouse .
+    ?spouse ns:name ?spouseName .
+  }
+  FILTER (!isBlank(?person))
+}
+ORDER BY ?name
+
+# ── Q17 Persons who are a brother of someone ──────────────────────────────────
+SELECT DISTINCT ?name WHERE {
+  ?person ns:isBrotherOf ?x .
+  ?person ns:name ?name .
+  FILTER (!isBlank(?person))
+}
+
+# ── Q18 Persons who are a daughter of someone ────────────────────────────────
+SELECT DISTINCT ?name WHERE {
+  ?person ns:isDaughterOf ?x .
+  ?person ns:name ?name .
+  FILTER (!isBlank(?person))
+}
+
+# ── Q19 Persons who are an uncle of someone ──────────────────────────────────
+SELECT DISTINCT ?name WHERE {
+  ?person a ns:Uncle .
+  ?person ns:name ?name .
+  FILTER (!isBlank(?person))
+}
+
+# ── Q20 Persons who are married ──────────────────────────────────────────────
+SELECT DISTINCT ?name WHERE {
+  ?person ns:isMarriedWith ?x .
+  ?person ns:name ?name .
+  FILTER (!isBlank(?person))
+}
+ORDER BY ?name

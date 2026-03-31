@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Cache & embeddings (regenerated automatically)
+cache/
+*.pkl
+
+# Word temporary files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal
+.claude/

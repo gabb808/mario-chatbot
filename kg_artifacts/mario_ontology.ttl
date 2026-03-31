@@ -1,0 +1,152 @@
+@prefix mario: <http://esilv.fr/mario#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://esilv.fr/mario/prop#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mario:Enemy a owl:Class ;
+    rdfs:label "Enemy" ;
+    rdfs:subClassOf mario:Character .
+
+mario:GeoPoliticalEntity a owl:Class ;
+    rdfs:label "GeoPoliticalEntity" ;
+    rdfs:subClassOf mario:Location .
+
+mario:MarioOntology a owl:Ontology ;
+    rdfs:label "Mario Universe Ontology" .
+
+prop:appearsIn a owl:ObjectProperty ;
+    rdfs:label "appearsIn" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:VideoGame .
+
+prop:coOccursWith a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "coOccursWith" ;
+    rdfs:domain mario:Entity ;
+    rdfs:range mario:Entity .
+
+prop:confidence a owl:DatatypeProperty ;
+    rdfs:label "confidence" ;
+    rdfs:range xsd:decimal .
+
+prop:contains a owl:ObjectProperty ;
+    rdfs:label "contains" ;
+    rdfs:domain mario:Location ;
+    rdfs:range mario:Entity .
+
+prop:createdBy a owl:ObjectProperty ;
+    rdfs:label "createdBy" ;
+    rdfs:domain mario:Entity ;
+    rdfs:range mario:RealPerson .
+
+prop:defeats a owl:ObjectProperty ;
+    rdfs:label "defeats" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:developedBy a owl:ObjectProperty ;
+    rdfs:label "developedBy" ;
+    rdfs:domain mario:VideoGame ;
+    rdfs:range mario:Organization .
+
+prop:extractMethod a owl:DatatypeProperty ;
+    rdfs:label "extractMethod" ;
+    rdfs:range xsd:string .
+
+prop:features a owl:ObjectProperty ;
+    rdfs:label "features" ;
+    rdfs:domain mario:VideoGame ;
+    rdfs:range mario:Character .
+
+prop:fights a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "fights" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:follows a owl:ObjectProperty ;
+    rdfs:label "follows" ;
+    rdfs:domain mario:VideoGame ;
+    rdfs:range mario:VideoGame .
+
+prop:helps a owl:ObjectProperty ;
+    rdfs:label "helps" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:isPartOf a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain mario:Entity ;
+    rdfs:range mario:Entity .
+
+prop:isRelatedTo a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "isRelatedTo" ;
+    rdfs:domain mario:Entity ;
+    rdfs:range mario:Entity .
+
+prop:kidnaps a owl:ObjectProperty ;
+    rdfs:label "kidnaps" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:locatedIn a owl:ObjectProperty ;
+    rdfs:label "locatedIn" ;
+    rdfs:domain mario:Entity ;
+    rdfs:range mario:Location .
+
+prop:opposes a owl:ObjectProperty ;
+    rdfs:label "opposes" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:publishedBy a owl:ObjectProperty ;
+    rdfs:label "publishedBy" ;
+    rdfs:domain mario:VideoGame ;
+    rdfs:range mario:Organization .
+
+prop:rules a owl:ObjectProperty ;
+    rdfs:label "rules" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Location .
+
+prop:saves a owl:ObjectProperty ;
+    rdfs:label "saves" ;
+    rdfs:domain mario:Character ;
+    rdfs:range mario:Character .
+
+prop:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "sourceURL" ;
+    rdfs:range xsd:anyURI .
+
+mario:Item a owl:Class ;
+    rdfs:label "Item" ;
+    rdfs:subClassOf mario:Entity .
+
+mario:RealPerson a owl:Class ;
+    rdfs:label "RealPerson" ;
+    rdfs:subClassOf mario:Entity .
+
+mario:Organization a owl:Class ;
+    rdfs:label "Organization" ;
+    rdfs:subClassOf mario:Entity .
+
+mario:Location a owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:subClassOf mario:Entity .
+
+mario:VideoGame a owl:Class ;
+    rdfs:label "VideoGame" ;
+    rdfs:subClassOf mario:Entity .
+
+mario:Entity a owl:Class ;
+    rdfs:label "Entity" .
+
+mario:Character a owl:Class ;
+    rdfs:label "Character" ;
+    rdfs:subClassOf mario:Entity ;
+    owl:disjointWith mario:Item,
+        mario:Location,
+        mario:VideoGame .
+
