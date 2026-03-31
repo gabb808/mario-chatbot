@@ -1,7 +1,7 @@
 # Mario Chatbot 🍄
 
 **Web & Data Mining — ESILV A4 S2**  
-**Team:** The Mario Bros 10  
+**Team:** Gabriel Beziou
 **Domain:** Mario Universe (Nintendo franchise)
 
 A full Knowledge Graph pipeline over the Mario Universe, from web crawling to a RAG chatbot powered by a local LLM.
@@ -45,12 +45,6 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptr
 # 3. Install Ollama — https://ollama.ai
 ollama pull phi3
 ```
-
-### Hardware Requirements
-
-- **RAM:** 8 GB minimum (16 GB recommended)
-- **Storage:** ~500 MB (KG files + model cache)
-- **GPU:** Optional — Ollama runs on CPU by default
 
 ---
 
@@ -170,7 +164,3 @@ Bye!
 ```
 
 ---
-
-## License
-
-MIT
